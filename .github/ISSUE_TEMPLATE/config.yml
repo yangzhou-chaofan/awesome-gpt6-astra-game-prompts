@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or idea
+    url: https://github.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/discussions
+    about: Ask about a recipe, or float an idea before writing it up.

@@ -1,0 +1,86 @@
+name: New prompt recipe
+description: Submit a reproducible prompt for GPT-6 Astra 3D game generation.
+title: "Add prompt: "
+labels: ["new prompt"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing. Before you file this, please read
+        [CONTRIBUTING.md](https://github.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/blob/main/CONTRIBUTING.md)
+        and use [`templates/PROMPT_TEMPLATE.md`](https://github.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/blob/main/templates/PROMPT_TEMPLATE.md).
+        A pull request is preferred to an issue where possible.
+
+  - type: input
+    id: title
+    attributes:
+      label: Prompt title
+      placeholder: Seeded Voxel Sandbox
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - full-games
+        - systems
+        - assets
+        - levels
+        - ui
+    validations:
+      required: true
+
+  - type: textarea
+    id: deliverable
+    attributes:
+      label: What does it produce?
+      description: One or two sentences. Name the exact artifact.
+      placeholder: A single self-contained index.html containing a seeded voxel world with digging and building.
+    validations:
+      required: true
+
+  - type: input
+    id: model_version
+    attributes:
+      label: Model version you ran it on
+      placeholder: "2026-09-03"
+    validations:
+      required: true
+
+  - type: textarea
+    id: settings
+    attributes:
+      label: Settings
+      description: System prompt, temperature, top-p, seed (or "none"), max output tokens, tool config.
+      placeholder: |
+        temperature: 0.4
+        top_p: 0.9
+        seed: 4242
+        max_output_tokens: 8000
+        tools: code execution
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance checks
+      description: Concrete things that must be observable in the output.
+      placeholder: |
+        - Opens with no console errors
+        - Terrain identical for seed 4242 across two runs
+        - Digging removes a block within 1 frame
+    validations:
+      required: true
+
+  - type: dropdown
+    id: verified
+    attributes:
+      label: Verification status
+      options:
+        - draft — not run end to end
+        - community — I ran it end to end on the pinned version
+    validations:
+      required: true

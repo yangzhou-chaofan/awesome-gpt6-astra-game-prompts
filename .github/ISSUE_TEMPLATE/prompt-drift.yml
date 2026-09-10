@@ -1,0 +1,44 @@
+name: Prompt drift
+description: A recipe no longer works, or behaves differently, on a model release.
+title: "Drift: <id> "
+labels: ["drift"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Model releases change behavior. Drift reports are how this list stays honest — thank you.
+
+        Please **do not** silently edit an existing recipe to match a new model. Recipes are
+        historical records tied to a `model_version`.
+
+  - type: input
+    id: recipe
+    attributes:
+      label: Recipe id
+      placeholder: astra-3d-001
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Model version you ran
+      placeholder: "2026-09-03"
+    validations:
+      required: true
+
+  - type: textarea
+    id: failed
+    attributes:
+      label: Which acceptance check failed?
+      placeholder: "Player does not respawn on R — game over overlay stays up."
+    validations:
+      required: true
+
+  - type: textarea
+    id: observed
+    attributes:
+      label: What happened instead
+      description: Paste the relevant output, error, or a screenshot.
+    validations:
+      required: false

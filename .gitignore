@@ -1,0 +1,29 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Generated prompt output (recipes emit these when run; don't commit them)
+out/
+dist/
+*.glb
+*.gltf
+*.png
+*.jpg
+!docs/**/*.png
+
+# Scratch
+tmp/
+*.local

@@ -1,0 +1,125 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/schema/prompt.schema.json",
+  "title": "Prompt recipe frontmatter",
+  "description": "The machine-readable contract every file under prompts/ must satisfy. The frontmatter is a flat map of scalar keys with inline arrays; nested objects are deliberately not supported so tooling stays dependency-free.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "category",
+    "slug",
+    "model",
+    "model_version",
+    "temperature",
+    "top_p",
+    "seed",
+    "max_output_tokens",
+    "runtime",
+    "stack",
+    "difficulty",
+    "verified",
+    "tags",
+    "license"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable identifier. astra-3d-<block><nnn>; blocks: 0xx games, 1xx systems, 2xx assets, 3xx levels, 4xx UI.",
+      "pattern": "^astra-3d-[0-9]{3}$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Human name shown in the README index and at the top of the recipe.",
+      "minLength": 3,
+      "maxLength": 70
+    },
+    "category": {
+      "type": "string",
+      "description": "Must match the containing folder under prompts/.",
+      "enum": ["full-games", "systems", "assets", "levels", "ui"]
+    },
+    "slug": {
+      "type": "string",
+      "description": "Lowercase hyphenated slug; <id>-<slug>.md must equal the filename.",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "model": {
+      "type": "string",
+      "description": "The model family the recipe targets.",
+      "enum": ["gpt-6-astra"]
+    },
+    "model_version": {
+      "type": "string",
+      "description": "Exact dated release the recipe was verified against, quoted to avoid YAML date coercion. e.g. \"2026-09-03\".",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "temperature": {
+      "type": "number",
+      "description": "Sampling temperature recorded for the run.",
+      "minimum": 0,
+      "maximum": 2
+    },
+    "top_p": {
+      "type": "number",
+      "description": "Nucleus sampling parameter recorded for the run.",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "seed": {
+      "description": "Sampling seed if the API exposes one, otherwise the literal string \"none\". Procedural output the prompt itself generates must pin its own seed inside the prompt body.",
+      "oneOf": [
+        { "type": "integer", "minimum": 0 },
+        { "type": "string", "enum": ["none"] }
+      ]
+    },
+    "max_output_tokens": {
+      "type": "integer",
+      "description": "Output budget the recipe was run with.",
+      "minimum": 256
+    },
+    "runtime": {
+      "type": "string",
+      "description": "Where the output runs, e.g. 'modern browser', 'Blender 4.x CLI'.",
+      "minLength": 2
+    },
+    "stack": {
+      "type": "string",
+      "description": "Short stack label shown in the README index, e.g. 'Three.js'.",
+      "minLength": 2,
+      "maxLength": 24
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["beginner", "intermediate", "advanced"]
+    },
+    "verified": {
+      "type": "string",
+      "description": "draft = format-complete only; community = author ran it; tested = maintainer reproduced it.",
+      "enum": ["draft", "community", "tested"]
+    },
+    "verified_by": {
+      "type": "string",
+      "description": "Required unless verified is 'draft'. GitHub handle of the verifier.",
+      "minLength": 1
+    },
+    "verified_on": {
+      "type": "string",
+      "description": "Required unless verified is 'draft'. ISO date of the verification run.",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "tags": {
+      "type": "array",
+      "description": "Free-form discovery tags. Inline array in the frontmatter.",
+      "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "license": {
+      "type": "string",
+      "description": "SPDX identifier. This repository releases everything under CC0-1.0.",
+      "enum": ["CC0-1.0"]
+    }
+  }
+}
