@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GPT-6 Astra 玩法案例馆 · Game Prompt Showcase</title>
+<style>
+  :root{
+    --bg:#0d1117; --card:#161b22; --edge:#30363d; --fg:#e6edf3; --dim:#8b949e;
+    --acc:#6f42c1; --acc2:#1f6feb; --gold:#d29922;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--fg);font-family:-apple-system,"Segoe UI",Roboto,"Noto Sans SC",sans-serif;line-height:1.6}
+  header{padding:56px 24px 32px;max-width:1100px;margin:0 auto}
+  h1{font-size:2.1rem;background:linear-gradient(90deg,#a371f7,#58a6ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{color:var(--dim);margin-top:10px;max-width:760px}
+  .stats{display:flex;gap:14px;margin-top:22px;flex-wrap:wrap}
+  .stat{background:var(--card);border:1px solid var(--edge);border-radius:10px;padding:10px 18px}
+  .stat b{font-size:1.4rem;display:block;color:#a371f7}
+  .stat span{font-size:.82rem;color:var(--dim)}
+  main{max-width:1100px;margin:0 auto;padding:0 24px 64px}
+  nav{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 6px}
+  nav button{background:var(--card);border:1px solid var(--edge);color:var(--fg);padding:8px 14px;border-radius:20px;cursor:pointer;font-size:.9rem}
+  nav button.active{border-color:var(--acc);color:#fff;background:rgba(111,66,193,.18)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-top:20px}
+  .card{background:var(--card);border:1px solid var(--edge);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:8px;transition:border-color .15s}
+  .card:hover{border-color:var(--acc)}
+  .card h3{font-size:1rem;line-height:1.4}
+  .card .desc{font-size:.85rem;color:var(--dim);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .card .meta{display:flex;gap:8px;align-items:center;font-size:.78rem;color:var(--dim);margin-top:auto;flex-wrap:wrap}
+  .pill{padding:2px 9px;border-radius:10px;border:1px solid var(--edge);white-space:nowrap}
+  .pill.p{color:#3fb950;border-color:#238636}
+  .pill.np{color:var(--dim)}
+  .pill.feat{color:var(--gold);border-color:var(--gold)}
+  .card a{color:#58a6ff;text-decoration:none}
+  .featured{border-color:rgba(210,153,34,.45)}
+  .playbooks{margin-top:36px;background:var(--card);border:1px solid var(--edge);border-radius:12px;padding:22px}
+  .playbooks h2{font-size:1.2rem;margin-bottom:10px}
+  .playbooks ul{list-style:none;margin-top:10px}
+  .playbooks li{padding:7px 0;border-bottom:1px solid var(--edge);font-size:.92rem;display:flex;gap:10px;align-items:baseline}
+  .playbooks li:last-child{border:0}
+  .diff{color:var(--gold);letter-spacing:2px;font-size:.8rem}
+  footer{max-width:1100px;margin:0 auto;padding:0 24px 48px;color:var(--dim);font-size:.82rem}
+  footer a{color:#58a6ff}
+</style>
+</head>
+<body>
+<header>
+  <h1>🕹️ GPT-6 Astra 玩法案例馆</h1>
+  <p class="sub">X 上的真实玩法案例 —— 每条回链原帖；作者公开的 prompt 原文照录。数据与
+    <a href="https://github.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts" style="color:#58a6ff">awesome-gpt6-astra-game-prompts</a>
+    仓库共建：改 repo 即改本页。</p>
+  <div class="stats" id="stats"></div>
+  <nav id="nav"></nav>
+</header>
+<main>
+  <div class="grid" id="grid"></div>
+  <section class="playbooks">
+    <h2>📖 Playbooks · 玩法配方手册</h2>
+    <p class="sub" style="margin-top:4px">从案例里提炼的可复用套路 —— 比单条 prompt 更值得抄。</p>
+    <ul id="pblist"></ul>
+  </section>
+</main>
+<footer>
+  Record source: X (Twitter) 原帖 · 聚合自 <a href="https://github.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/blob/main/showcase/README.md">多个 awesome lists</a> ·
+  抓取 2026-09-11 · 非官方社区项目，与 OpenAI 无关
+</footer>
+<script>
+const CATS = {
+  "arcade-action":      ["🎈 Arcade & Action"],
+  "sim-toy":            ["🧪 Simulation & Toys"],
+  "adventure-rpg":      ["🗺️ Adventure & RPG"],
+  "multiplayer-battle": ["⚔️ Multiplayer & Battle"],
+  "agent-plays":        ["🤖 Agent Plays"],
+};
+const PLAYBOOKS = [
+  ["P1 · One-Shot Arcade", "一个 prompt 出一把流小游戏", "★"],
+  ["P2 · Spec-First Big Build", "先写 SPEC.md 再照规格施工大项目", "★★"],
+  ["P3 · Remaster Classic", "复刻老游戏：怀旧辨识度 × 现代手感", "★★"],
+  ["P4 · Computer-Use Player", "让模型长手亲自玩游戏", "★★★"],
+  ["P5 · Playable World Diorama", "把地点做成可探索 3D 微缩世界", "★★"],
+  ["P6 · Co-Creative Design Partner", "先让模型当策划再当工人", "★"],
+];
+let data=null, active="all";
+async function load(){
+  // repo 内相对路径读取；本地 file:// 打不开时提示
+  try{
+    data = await (await fetch("./showcase/data.json")).json();
+  }catch(e){
+    document.getElementById("grid").innerHTML =
+      '<div class="card"><h3>⚠️ 需要通过 HTTP 访问</h3><div class="desc">直接双击打开会因 fetch 限制看不到数据。' +
+      '请运行 <code>python3 -m http.server</code> 或访问 GitHub Pages 版本。</div></div>';
+    return;
+  }
+  renderStats(); renderNav(); renderGrid(); renderPlaybooks();
+}
+function renderStats(){
+  const m=data.meta;
+  document.getElementById("stats").innerHTML =
+    `<div class="stat"><b>${m.entry_count}</b><span>案例</span></div>
+     <div class="stat"><b>${m.with_prompt}</b><span>带 Prompt 原文</span></div>
+     <div class="stat"><b>${Object.keys(CATS).length}</b><span>分类</span></div>
+     <div class="stat"><b>6</b><span>Playbooks</span></div>`;
+}
+function renderNav(){
+  const nav=document.getElementById("nav");
+  const btn=(k,label)=>`<button data-k="${k}" class="${active===k?'active':''}">${label}</button>`;
+  nav.innerHTML = btn("all",`全部 ${data.meta.entry_count}`) +
+    Object.entries(CATS).map(([k,[name]])=>{
+      const n=data.entries.filter(e=>e.cat===k).length;
+      return btn(k,`${name} ${n}`);
+    }).join("") +
+    btn("feat","⭐ 推荐榜");
+  nav.querySelectorAll("button").forEach(b=>b.onclick=()=>{active=b.dataset.k;renderNav();renderGrid();});
+}
+function renderGrid(){
+  let list=data.entries;
+  if(active==="feat") list=list.filter(e=>e.featured);
+  else if(active!=="all") list=list.filter(e=>e.cat===active);
+  // 推荐优先，然后有 prompt 的优先
+  list.sort((a,b)=>(b.featured?1:0)-(a.featured?1:0)||(b.has_prompt?1:0)-(a.has_prompt?1:0));
+  document.getElementById("grid").innerHTML = list.map(e=>{
+    const [icon]=CATS[e.cat]||["🎯"];
+    return `<div class="card ${e.featured?'featured':''}">
+      <h3>${e.featured?'⭐ ':''}${icon} ${e.title||"untitled"}</h3>
+      <div class="desc">${(e.desc_clean||"").slice(0,180)}</div>
+      <div class="meta">
+        <span class="pill ${e.has_prompt?'p':'np'}">${e.has_prompt?'✅ Prompt':'— 无 Prompt'}</span>
+        <a href="${e.x}" target="_blank" rel="noopener">原帖 ↗</a>
+        ${e.demos&&e.demos[0]?`<a href="${e.demos[0]}" target="_blank" rel="noopener">试玩 ↗</a>`:""}
+        <span style="margin-left:auto">@${e.owner}</span>
+      </div>
+    </div>`;
+  }).join("");
+}
+function renderPlaybooks(){
+  document.getElementById("pblist").innerHTML = PLAYBOOKS.map(([n,d,diff])=>
+    `<li><b>${n}</b><span style="color:var(--dim)">${d}</span><span class="diff" style="margin-left:auto">${diff}</span></li>`).join("");
+}
+load();
+</script>
+</body>
+</html>
