@@ -17,6 +17,25 @@ worked. Reproducible means the next person gets an equivalent result.
 
 ---
 
+## Two layers: catalog and recipes
+
+This repository answers two different questions, and keeps them separate.
+
+| Layer | Question | Entry point | Standard |
+| --- | --- | --- | --- |
+| **Catalog** | *What is worth trying?* | [`CATALOG.md`](CATALOG.md) · [browse the site](site/index.html) | Classified, credited, recommended. A prompt is optional. |
+| **Recipes** | *How do I reproduce it?* | [`prompts/`](prompts) | The four-clause reproducibility contract. |
+
+The **catalog** aggregates GPT-6 Astra prompts, demos, tools and guides from across the ecosystem
+— most published first on X, many already indexed by other `awesome-*` lists — and tags each one
+with a category, a recommendation tier and a real source. Start there to find something; drop into
+`prompts/` to make it reproducible.
+
+There is also a **[playbook skill](skills/astra-playbook/SKILL.md)** that turns a one-line idea into
+a fully assembled GPT-6 Astra prompt.
+
+---
+
 ## What "reproducible" means here
 
 A prompt is only in this list if it satisfies the **reproducibility contract** — four things,
@@ -202,14 +221,25 @@ author*. That is the whole point of the list.
 │   ├── assets/
 │   ├── levels/
 │   └── ui/
-├── schema/prompt.schema.json  # machine-readable frontmatter contract
+├── catalog/                 # the discovery layer
+│   ├── README.md            # classification + recommendation rules
+│   └── entries/             # one credited entry per file, grouped by category
+├── skills/
+│   └── astra-playbook/      # SKILL.md: idea -> assembled Astra prompt
+├── schema/
+│   ├── prompt.schema.json   # machine-readable recipe contract
+│   └── catalog.schema.json  # machine-readable catalog contract
 ├── scripts/
-│   ├── validate_prompts.py    # CI: checks every recipe against the schema
-│   └── build_index.py         # regenerates the tables in this README
+│   ├── validate_prompts.py  # CI: checks every recipe against the schema
+│   ├── validate_catalog.py  # CI: checks every catalog entry
+│   ├── build_index.py       # regenerates the tables in this README
+│   └── build_catalog.py     # regenerates CATALOG.md and site/index.html
+├── CATALOG.md               # generated index of the catalog
+├── site/index.html          # generated browsable gallery
 ├── templates/PROMPT_TEMPLATE.md
-├── docs/REPRODUCIBILITY.md    # what the contract means, in depth
+├── docs/REPRODUCIBILITY.md  # what the contract means, in depth
 ├── CONTRIBUTING.md
-└── .github/                   # CI, issue forms, PR template
+└── .github/                 # CI, issue forms, PR template
 ```
 
 ---
