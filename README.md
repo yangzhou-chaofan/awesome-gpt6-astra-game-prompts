@@ -151,15 +151,64 @@
 | **验收** | 预期产物 + 能失败的检查清单 + "Where it drifts" 翻车点 |
 
 <details>
-<summary><b>📋 全部 26 条配方（5 类）</b></summary>
+<summary><b>📋 全部 26 条配方（自动生成的完整索引）</b></summary>
 
-| 分类 | 条数 | 配方 |
-|---|---|---|
-| 🎮 完整游戏 | 6 | [无尽跑酷](prompts/full-games/astra-3d-001-endless-runner.md) · [FPS 探索](prompts/full-games/astra-3d-002-first-person-explorer.md) · [塔防](prompts/full-games/astra-3d-003-tower-defense.md) · [竞技场射击](prompts/full-games/astra-3d-004-topdown-arena-shooter.md) · [体素沙盒](prompts/full-games/astra-3d-005-voxel-sandbox.md) · [物理弹珠](prompts/full-games/astra-3d-006-marble-platformer.md) |
-| ⚙️ 系统组件 | 8 | [角色控制器](prompts/systems/astra-3d-101-character-controller.md) · [程序化地形](prompts/systems/astra-3d-102-procedural-terrain.md) · [FSM AI](prompts/systems/astra-3d-103-enemy-fsm-ai.md) · [背包拾取](prompts/systems/astra-3d-104-inventory-and-pickups.md) · [第三人称相机](prompts/systems/astra-3d-105-third-person-camera.md) · [存档](prompts/systems/astra-3d-106-save-load-system.md) · [对象池](prompts/systems/astra-3d-107-object-pooling.md) · [确定性回放](prompts/systems/astra-3d-108-deterministic-replay.md) |
-| 🧱 资产生成 | 5 | [文生低模 GLB](prompts/assets/astra-3d-201-text-to-3d-prop.md) · [PBR 贴图](prompts/assets/astra-3d-202-pbr-texture-set.md) · [绑定角色](prompts/assets/astra-3d-203-rigged-character.md) · [模块化套件](prompts/assets/astra-3d-204-modular-kitbash.md) · [图集打包](prompts/assets/astra-3d-205-texture-atlas.md) |
-| 🗺️ 关卡世界 | 4 | [程序化地牢](prompts/levels/astra-3d-301-procedural-dungeon.md) · [城市街区](prompts/levels/astra-3d-302-procedural-city.md) · [导航网格](prompts/levels/astra-3d-303-navmesh-baker.md) · [刷怪导演](prompts/levels/astra-3d-304-spawn-director.md) |
-| 🖥️ UI 界面 | 3 | [HUD 菜单](prompts/ui/astra-3d-401-hud-and-menus.md) · [环形菜单](prompts/ui/astra-3d-402-radial-menu.md) · [设置面板](prompts/ui/astra-3d-403-settings-panel.md) |
+<!-- BEGIN INDEX -->
+> **26** prompts · 5 categories · targeting `gpt-6-astra` (2026-09-03).
+
+The initial batch ships as **📝 draft** — format-complete and reviewed, but not yet independently reproduced. Run one and record it to promote it to 🧪 community.
+
+### 🎮 Full games — one prompt, a playable game
+
+| ID | Prompt | Stack | Difficulty | Verified |
+| --- | --- | --- | --- | --- |
+| `astra-3d-001` | [Endless Runner](prompts/full-games/astra-3d-001-endless-runner.md) | Three.js | beginner | 📝 draft |
+| `astra-3d-002` | [First-Person Explorer](prompts/full-games/astra-3d-002-first-person-explorer.md) | Three.js | intermediate | 📝 draft |
+| `astra-3d-003` | [Tower Defense](prompts/full-games/astra-3d-003-tower-defense.md) | Three.js | intermediate | 📝 draft |
+| `astra-3d-004` | [Top-Down Arena Shooter](prompts/full-games/astra-3d-004-topdown-arena-shooter.md) | Three.js | intermediate | 📝 draft |
+| `astra-3d-005` | [Voxel Sandbox](prompts/full-games/astra-3d-005-voxel-sandbox.md) | Three.js | advanced | 📝 draft |
+| `astra-3d-006` | [Physics Marble Platformer](prompts/full-games/astra-3d-006-marble-platformer.md) | Three.js + Rapier | advanced | 📝 draft |
+
+### ⚙️ Systems — drop-in gameplay machinery
+
+| ID | Prompt | Stack | Difficulty | Verified |
+| --- | --- | --- | --- | --- |
+| `astra-3d-101` | [Character Controller](prompts/systems/astra-3d-101-character-controller.md) | Three.js | intermediate | 📝 draft |
+| `astra-3d-102` | [Seeded Procedural Terrain](prompts/systems/astra-3d-102-procedural-terrain.md) | Three.js | intermediate | 📝 draft |
+| `astra-3d-103` | [Enemy AI State Machine](prompts/systems/astra-3d-103-enemy-fsm-ai.md) | Three.js | intermediate | 📝 draft |
+| `astra-3d-104` | [Inventory & Pickups](prompts/systems/astra-3d-104-inventory-and-pickups.md) | Three.js | beginner | 📝 draft |
+| `astra-3d-105` | [Third-Person Camera Rig](prompts/systems/astra-3d-105-third-person-camera.md) | Three.js | intermediate | 📝 draft |
+| `astra-3d-106` | [Save / Load System](prompts/systems/astra-3d-106-save-load-system.md) | Three.js | beginner | 📝 draft |
+| `astra-3d-107` | [Object Pooling & Culling](prompts/systems/astra-3d-107-object-pooling.md) | Three.js | advanced | 📝 draft |
+| `astra-3d-108` | [Deterministic Replay Harness](prompts/systems/astra-3d-108-deterministic-replay.md) | Three.js | advanced | 📝 draft |
+
+### 🧱 Assets — geometry, rigs and textures as code
+
+| ID | Prompt | Stack | Difficulty | Verified |
+| --- | --- | --- | --- | --- |
+| `astra-3d-201` | [Text → Low-Poly Prop (GLB)](prompts/assets/astra-3d-201-text-to-3d-prop.md) | Blender 4.x | intermediate | 📝 draft |
+| `astra-3d-202` | [Procedural PBR Texture Set](prompts/assets/astra-3d-202-pbr-texture-set.md) | Canvas / WebGL | intermediate | 📝 draft |
+| `astra-3d-203` | [Rigged Character from a Prompt](prompts/assets/astra-3d-203-rigged-character.md) | Blender 4.x | advanced | 📝 draft |
+| `astra-3d-204` | [Modular Kit-Bash Set](prompts/assets/astra-3d-204-modular-kitbash.md) | Blender 4.x | intermediate | 📝 draft |
+| `astra-3d-205` | [Texture Atlas Packer](prompts/assets/astra-3d-205-texture-atlas.md) | Node / Sharp | beginner | 📝 draft |
+
+### 🗺️ Levels & worlds
+
+| ID | Prompt | Stack | Difficulty | Verified |
+| --- | --- | --- | --- | --- |
+| `astra-3d-301` | [Seeded Procedural Dungeon](prompts/levels/astra-3d-301-procedural-dungeon.md) | Three.js | intermediate | 📝 draft |
+| `astra-3d-302` | [Procedural City Block](prompts/levels/astra-3d-302-procedural-city.md) | Three.js | advanced | 📝 draft |
+| `astra-3d-303` | [Navmesh from Level Geometry](prompts/levels/astra-3d-303-navmesh-baker.md) | Three.js | advanced | 📝 draft |
+| `astra-3d-304` | [Wave / Spawn Director](prompts/levels/astra-3d-304-spawn-director.md) | Three.js | intermediate | 📝 draft |
+
+### 🖥️ UI & HUD
+
+| ID | Prompt | Stack | Difficulty | Verified |
+| --- | --- | --- | --- | --- |
+| `astra-3d-401` | [HUD, Menus & Pause Screen](prompts/ui/astra-3d-401-hud-and-menus.md) | HTML / CSS | beginner | 📝 draft |
+| `astra-3d-402` | [Radial & Context Menu System](prompts/ui/astra-3d-402-radial-menu.md) | HTML / CSS | intermediate | 📝 draft |
+| `astra-3d-403` | [Settings & Accessibility Panel](prompts/ui/astra-3d-403-settings-panel.md) | HTML / CSS | beginner | 📝 draft |
+<!-- END INDEX -->
 
 </details>
 
