@@ -1,6 +1,6 @@
 # 🕹️ Showcase — X 上的 GPT-6 Astra 玩法案例
 
-> **115 条案例 · 34 条带 prompt 原文** · 抓取 2026-09-11 · 每条可回链 X 原帖
+> **103 条案例 · 34 条带 prompt 原文** · 抓取 2026-09-11 · 每条可回链 X 原帖
 
 本目录与 [`prompts/`](../prompts/) 互补，不改变其可复现契约：`prompts/` 是**配方**（模型版本+参数+输入+验收），
 这里收录的是**真实案例** —— 证明玩法成立、给出原帖上下文，并在作者公开时附上 prompt 原文。
@@ -30,16 +30,16 @@
 
 | 分类 | 条目 | 带Prompt | 说明 |
 |---|---|---|---|
-| 🎈 **[Arcade & Action](#arcade-action)** | 47 | 8 | 上手即玩的一把流：跑酷、射击、平台、节奏。看手感约束怎么写 |
-| 🧪 **[Simulation & Interactive Toys](#sim-toy)** | 28 | 14 | 城市 / 飞行 / 物理沙盘与互动玩具。少约束换稳定涌现 |
-| 🗺️ **[Adventure & RPG](#adventure-rpg)** | 15 | 9 | 任务、探索、成长。看 prompt 如何承载叙事与系统设计 |
-| ⚔️ **[Multiplayer & Battle](#multiplayer-battle)** | 16 | 2 | 对战、卡牌、共斗。单 prompt 能不能扛住规则博弈 |
+| 🎈 **[Arcade & Action](#arcade-action)** | 44 | 8 | 上手即玩的一把流：跑酷、射击、平台、节奏。看手感约束怎么写 |
+| 🧪 **[Simulation & Interactive Toys](#sim-toy)** | 26 | 14 | 城市 / 飞行 / 物理沙盘与互动玩具。少约束换稳定涌现 |
+| 🗺️ **[Adventure & RPG](#adventure-rpg)** | 13 | 9 | 任务、探索、成长。看 prompt 如何承载叙事与系统设计 |
+| ⚔️ **[Multiplayer & Battle](#multiplayer-battle)** | 11 | 2 | 对战、卡牌、共斗。单 prompt 能不能扛住规则博弈 |
 | 🤖 **[Agent Plays](#agent-plays)** | 9 | 1 | 模型亲自上手玩游戏 —— Computer Use 的边界在哪 |
 
 ---
 
 <a id="arcade-action"></a>
-## 🎈 Arcade & Action (47)
+## 🎈 Arcade & Action (44)
 
 > 上手即玩的一把流：跑酷、射击、平台、节奏。看手感约束怎么写
 
@@ -54,7 +54,6 @@
 | [Rig and animate a digitigrade mech in Godot](entries/rig-and-animate-a-digitigrade-mech-in-godot.md) | [:@om_patel5](https://x.com/om_patel5) | ✅ | [↗](https://x.com/om_patel5/status/2097123382852829230) |
 | [Rotatable 3D shogi board](entries/rotatable-3d-shogi-board.md) | [:@hatukougara](https://x.com/hatukougara) | ✅ | [↗](https://x.com/hatukougara/status/2096579856133947507) |
 | [1 shotted this w/ GPT-6 Astra](entries/1-shotted-this-w-gpt-6-astra.md) | [:@d4m1n](https://x.com/d4m1n) | — | [↗](https://x.com/d4m1n/status/2096258259459964963) |
-| [11–20：视频、UI、游戏与创作工具](entries/1120视频ui游戏与创作工具.md) | [:@cat_shark_L1011](https://x.com/cat_shark_L1011) | — | [↗](https://x.com/cat_shark_L1011/status/2096215847438291002) |
 | [20 m². Bed, desk, sofa, kitchen](entries/20-m²-bed-desk-sofa-kitchen.md) | [:@groovestreetgen](https://x.com/groovestreetgen) | — | [↗](https://x.com/groovestreetgen/status/2096377743701409988) |
 | [a couple of weeks ago I built a 3d morphogen](entries/a-couple-of-weeks-ago-i-built-a-3d-morphogenesis-h.md) | [:@andreasxirtus](https://x.com/andreasxirtus) | — | [↗](https://x.com/andreasxirtus/status/2095794528410124515) |
 | [A trick that improved my 3D results with GPT](entries/a-trick-that-improved-my-3d-results-with-gpt-6-ast.md) | [:@tiagomanel](https://x.com/tiagomanel) | — | [↗](https://x.com/tiagomanel/status/2096920387896373286) |
@@ -85,16 +84,14 @@
 | [Microduck Assembly Lab](entries/microduck-assembly-lab.md) | [:@tspy](https://x.com/tspy) | — | [↗](https://x.com/tspy/status/2096238855519453662) |
 | [Mobile Ad Game Remake](entries/mobile-ad-game-remake.md) | [:@buildingadlicio](https://x.com/buildingadlicio) | — | [↗](https://x.com/buildingadlicio/status/2096111709496680842) |
 | [Photorealistic Contra Game](entries/photorealistic-contra-game.md) | [:@illscience](https://x.com/illscience) | — | [↗](https://x.com/illscience/status/2097059547328241971) |
-| [Short Briefs That Still Worked](entries/short-briefs-that-still-worked.md) | [:@guuchacha149182](https://x.com/guuchacha149182) | — | [↗](https://x.com/guuchacha149182/status/2096813471463882947) |
 | [Snakes and Ladders in Unreal](entries/snakes-and-ladders-in-unreal.md) | [:@higgsfield_ai](https://x.com/higgsfield_ai) | — | [↗](https://x.com/higgsfield_ai/status/2097464282829168955) |
 | [ı asked GPT-6 Astra to make valorant](entries/ı-asked-gpt-6-astra-to-make-valorant.md) | [:@valohabercisi](https://x.com/valohabercisi) | — | [↗](https://x.com/valohabercisi/status/2096550643599069548) |
 | [「日本アニメでよく見られる、二脚人型の、いわゆる『リアルロボット』の3Dモデルを作成して](entries/日本アニメでよく見られる二脚人型のいわゆるリアルロボットの3dモデルを作成してくださいとしてgpt-.md) | [:@hawkymisc](https://x.com/hawkymisc) | — | [↗](https://x.com/hawkymisc/status/2096797700922753410) |
 | [グラディウス1のステージ1を、R-TYPEの機体で遊べるゲームを作ってください。](entries/グラディウス1のステージ1をr-typeの機体で遊べるゲームを作ってください.md) | [:@die2000](https://x.com/die2000) | — | [↗](https://x.com/die2000/status/2096101876735541488) |
 | [一张图，直接变成一个能“逛”的 3D 世界](entries/一张图直接变成一个能逛的-3d-世界.md) | [:@Adam38363368936](https://x.com/Adam38363368936) | — | [↗](https://x.com/Adam38363368936/status/2096787471107551649) |
-| [从作品出发，找到下一次三维创作的起点。](entries/从作品出发找到下一次三维创作的起点.md) | [:@rpnickson](https://x.com/rpnickson) | — | [↗](https://x.com/rpnickson/status/2097488440489116111) |
 
 <a id="sim-toy"></a>
-## 🧪 Simulation & Interactive Toys (28)
+## 🧪 Simulation & Interactive Toys (26)
 
 > 城市 / 飞行 / 物理沙盘与互动玩具。少约束换稳定涌现
 
@@ -118,11 +115,9 @@
 | [Asteria Spaceship Explorer](entries/asteria-spaceship-explorer.md) | [:@wengsiong22](https://x.com/wengsiong22) | — | [↗](https://x.com/wengsiong22/status/2096941914906144784) |
 | [Bubble Wrap Simulator](entries/bubble-wrap-simulator.md) | [:@crtvTeknologist](https://x.com/crtvTeknologist) | — | [↗](https://x.com/crtvTeknologist/status/2096980188126986533) |
 | [Build a new 3D city scene for me. I want sev](entries/build-a-new-3d-city-scene-for-me-i-want-several-ty.md) | [:@AndrewWalko](https://x.com/AndrewWalko) | — | [↗](https://x.com/AndrewWalko/status/2095987508475834641) |
-| [Case breakdowns](entries/case-breakdowns.md) | [:@adilinthewild](https://x.com/adilinthewild) | — | [↗](https://x.com/adilinthewild/status/2098247449026715966) |
 | [Fall Guys 到 5 天 SimCity](entries/fall-guys-到-5-天-simcity.md) | [:@MatthewBerman](https://x.com/MatthewBerman) | — | [↗](https://x.com/MatthewBerman/status/2095595892464333065) |
 | [Jelly Baby Playground](entries/jelly-baby-playground.md) | [:@scottstts](https://x.com/scottstts) | — | [↗](https://x.com/scottstts/status/2096364764054131119) |
 | [Machining Factory Game](entries/machining-factory-game.md) | [:@chod3s](https://x.com/chod3s) | — | [↗](https://x.com/chod3s/status/2097563137784385541) |
-| [Puzzles & brain games](entries/puzzles-brain-games.md) | [:@edmund5](https://x.com/edmund5) | — | [↗](https://x.com/edmund5/status/2097603093819261002) |
 | [Reference-Image Aquarium Game](entries/reference-image-aquarium-game.md) | [:@TimJayas](https://x.com/TimJayas) | — | [↗](https://x.com/TimJayas/status/2095611134992945385) |
 | [Rink Life](entries/rink-life.md) | [:@JakeBoyles](https://x.com/JakeBoyles) | — | [↗](https://x.com/JakeBoyles/status/2096983366327226501) |
 | [Texas Jet Plant Simulation](entries/texas-jet-plant-simulation.md) | [:@konstantinsaifo](https://x.com/konstantinsaifo) | — | [↗](https://x.com/konstantinsaifo/status/2096122429319852319) |
@@ -130,7 +125,7 @@
 | [【AIアニメ制作共有①】](entries/aiアニメ制作共有①.md) | [:@MiraMusic_AI](https://x.com/MiraMusic_AI) | — | [↗](https://x.com/MiraMusic_AI/status/2096441679847006358) |
 
 <a id="adventure-rpg"></a>
-## 🗺️ Adventure & RPG (15)
+## 🗺️ Adventure & RPG (13)
 
 > 任务、探索、成长。看 prompt 如何承载叙事与系统设计
 
@@ -146,14 +141,12 @@
 | [The Quiet Crossing exploration quest](entries/the-quiet-crossing-exploration-quest.md) | [:@Motion_Viz](https://x.com/Motion_Viz) | ✅ | [↗](https://x.com/Motion_Viz/status/2096574297703637111) |
 | [Warcraft-inspired character scene in Unity](entries/warcraft-inspired-character-scene-in-unity.md) | [:@luccacerf](https://x.com/luccacerf) | ✅ | [↗](https://x.com/luccacerf/status/2096308567863079420) |
 | [A Godot Roguelike Level](entries/a-godot-roguelike-level.md) | [:@op7418](https://x.com/op7418) | — | [↗](https://x.com/op7418/status/2096494840431386950) |
-| [Action & arcade](entries/action-arcade.md) | [:@CtrlAltDwayne](https://x.com/CtrlAltDwayne) | — | [↗](https://x.com/CtrlAltDwayne/status/2097499157967818780) |
 | [Arena Zero iPhone Fighting Game](entries/arena-zero-iphone-fighting-game.md) | [:@higgsfield_ai](https://x.com/higgsfield_ai) | — | [↗](https://x.com/higgsfield_ai/status/2097470354897740109) |
 | [Rocket League Style Game](entries/rocket-league-style-game.md) | [:@LLMJunky](https://x.com/LLMJunky) | — | [↗](https://x.com/LLMJunky/status/2096028790925488452) |
-| [RPGs & adventures](entries/rpgs-adventures.md) | [:@TheRohanVarma](https://x.com/TheRohanVarma) | — | [↗](https://x.com/TheRohanVarma/status/2096744577332068549) |
 | [Sunwake Sailing Game](entries/sunwake-sailing-game.md) | [:@Dimillian](https://x.com/Dimillian) | — | [↗](https://x.com/Dimillian/status/2096863961203220741) |
 
 <a id="multiplayer-battle"></a>
-## ⚔️ Multiplayer & Battle (16)
+## ⚔️ Multiplayer & Battle (11)
 
 > 对战、卡牌、共斗。单 prompt 能不能扛住规则博弈
 
@@ -164,17 +157,12 @@
 | [Age of Empires IV on Apple Silicon](entries/age-of-empires-iv-on-apple-silicon.md) | [:@marc_ibrahim](https://x.com/marc_ibrahim) | — | [↗](https://x.com/marc_ibrahim/status/2096365209111724235) |
 | [asked GPT 6 Astra to build a knight vs mage ](entries/asked-gpt-6-astra-to-build-a-knight-vs-mage-battle.md) | [:@LexnLin](https://x.com/LexnLin) | — | [↗](https://x.com/LexnLin/status/2096799556478357923) |
 | [Astral War](entries/astral-war.md) | [:@0xRishi](https://x.com/0xRishi) | — | [↗](https://x.com/0xRishi/status/2096079660605997264) |
-| [Benchmarks & Cost Tests](entries/benchmarks-cost-tests.md) | [:@i](https://x.com/i) | — | [↗](https://x.com/i/status/2096030719156089029) |
 | [Create a visually spectacular, highly polish](entries/create-a-visually-spectacular-highly-polished-3d-s.md) | [:@AiBattle_](https://x.com/AiBattle_) | — | [↗](https://x.com/AiBattle_/status/2096056285896536086) |
-| [Experimental & multiplayer](entries/experimental-multiplayer.md) | [:@antonioleivag](https://x.com/antonioleivag) | — | [↗](https://x.com/antonioleivag/status/2096509898481651770) |
 | [Godot 索尼克 Max vs Medium](entries/godot-索尼克-max-vs-medium.md) | [:@AiBattle_](https://x.com/AiBattle_) | — | [↗](https://x.com/AiBattle_/status/2095994051354919049) |
 | [Gogh Strike](entries/gogh-strike.md) | [:@petergostev](https://x.com/petergostev) | — | [↗](https://x.com/petergostev/status/2096013280519016608) |
 | [Halo-Inspired Tesana FPS](entries/halo-inspired-tesana-fps.md) | [:@VikiingAI](https://x.com/VikiingAI) | — | [↗](https://x.com/VikiingAI/status/2095598026916049024) |
-| [Known but Unpublished](entries/known-but-unpublished.md) | [:@paojiaofty](https://x.com/paojiaofty) | — | [↗](https://x.com/paojiaofty/status/2096830622341976467) |
 | [Rogue Arena Prototype](entries/rogue-arena-prototype.md) | [:@jumperz](https://x.com/jumperz) | — | [↗](https://x.com/jumperz/status/2096600055301984738) |
-| [Strategy & simulation](entries/strategy-simulation.md) | [:@echo3042](https://x.com/echo3042) | — | [↗](https://x.com/echo3042/status/2096123409029886250) |
 | [Universe Duel](entries/universe-duel.md) | [:@hayashimon1](https://x.com/hayashimon1) | — | [↗](https://x.com/hayashimon1/status/2096255665778069957) |
-| [游戏与可玩原型](entries/游戏与可玩原型.md) | [:@imoutoftokensFR](https://x.com/imoutoftokensFR) | — | [↗](https://x.com/imoutoftokensFR/status/2096202083561054342) |
 
 <a id="agent-plays"></a>
 ## 🤖 Agent Plays (9)
@@ -199,14 +187,12 @@
 
 本目录由以下 awesome list 聚合去重而来 —— 它们是发现 X 帖子的地图，record 本身永远回到 X：
 
+> **注：** 少数高质量案例源头是 GitHub repo 而非 X 帖（如 [`Ayi1337/gpt6-astra-one-shot-games`](https://github.com/Ayi1337/gpt6-astra-one-shot-games) 的 Mosswing / 瓜体实验室，含原始 prompt 与可玩 HTML）。按"X 优先"原则它们不进本目录，已收进 [`playbooks/p1`](../playbooks/p1-one-shot-arcade.md) 作为实战例证，并建议后续以 recipe 形式进入 [`prompts/`](../prompts/)。
+
 - [`BeatAPI/awesome-3d-prompts`](https://github.com/BeatAPI/awesome-3d-prompts)
 - [`LuxRealGrowth/awesome-astra-video-prompts`](https://github.com/LuxRealGrowth/awesome-astra-video-prompts)
-- [`MartinDelophy/awesome-gpt-6-astra`](https://github.com/MartinDelophy/awesome-gpt-6-astra)
 - [`TripoGrowthLab/awesome-astra-prompts`](https://github.com/TripoGrowthLab/awesome-astra-prompts)
-- [`archorfight/awesome-gpt-6-astra`](https://github.com/archorfight/awesome-gpt-6-astra)
-- [`carpentry-liu/awesome-astra-3d`](https://github.com/carpentry-liu/awesome-astra-3d)
 - [`helloianneo/awesome-gpt6-astra`](https://github.com/helloianneo/awesome-gpt6-astra)
 - [`magiccreator-ai/awesome-gpt-6-astra`](https://github.com/magiccreator-ai/awesome-gpt-6-astra)
 - [`xianyu110/awesome-gpt-6-astra`](https://github.com/xianyu110/awesome-gpt-6-astra)
-- [`zlxxlz1026/awesome-gpt-6-astra-casebook`](https://github.com/zlxxlz1026/awesome-gpt-6-astra-casebook)
 

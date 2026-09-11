@@ -13,6 +13,11 @@
 - 想测试新模型版本的"一次到位"能力
 - 内容创作：录屏/发帖，单文件天然适合传播
 
+## 实战例证
+
+- **Mosswing**（@Ayi1337 · Xhigh one-shot 21 分钟）：[在线体验](https://mosswing-quiet-flight.jack-514.chatgpt.site/) · [原始 prompt 与源码](https://github.com/Ayi1337/gpt6-astra-one-shot-games) — 本 playbook 模板即从此案例反推
+- **瓜体实验室**（同作者）：一句话"用最短的时间设计一款全新概念（物理性质）的半流体西瓜游戏（html游戏）" → [在线体验](https://melon-game.jack-514.chatgpt.site)
+
 ## Prompt 模板（可粘贴）
 
 ```text

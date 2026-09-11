@@ -105,7 +105,7 @@ The initial batch ships as **📝 draft** — format-complete and reviewed, but 
 
 | 目录 | 是什么 | 数据 |
 |---|---|---|
-| [`showcase/`](showcase/README.md) | **X 真实玩法案例**：115 条，34 条带 prompt 原文，全部回链 X 原帖。分类 + 推荐榜。 | [`showcase/data.json`](showcase/data.json) |
+| [`showcase/`](showcase/README.md) | **X 真实玩法案例**：103 条，34 条带 prompt 原文，全部回链 X 原帖。分类 + 推荐榜。 | [`showcase/data.json`](showcase/data.json) |
 | [`playbooks/`](playbooks/README.md) | **玩法配方手册（skill 层）**：6 个可复用套路，从案例提炼，含模板/变量/翻车点 | 纯 markdown |
 | [`web/`](web/index.html) | **网页端**：消费 `showcase/data.json` 的案例馆页面（repo 与网页共建） | 静态页 |
 

@@ -6,7 +6,7 @@
 Gave GPT-6 Astra a watch photo. It built this in Blender. <details> <summary><strong>Prompt</strong> — Gave GPT-6 Astra a watch photo. It built this in Blender.</summary> ~~~~text Gave G
 
 ## Prompt
-> ⚠️ **原帖未公开 prompt**。按收录原则照收 —— 先看原帖效果判断是否值得追，再到评论区蹲作者，或自己复现后 [提 PR](../CONTRIBUTING.md)。
+> ⚠️ **原帖未公开 prompt**。按收录原则照收 —— 先看原帖效果，再去评论区蹲作者或自己复现后提 PR。
 
 ## Provenance
 - **X 原帖:** <https://x.com/Golfrrr69/status/2096670690912997618>

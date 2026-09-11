@@ -6,7 +6,7 @@
 A Three.js game is recreated in Blender scenes and turned into a trailer. **Creator:** [Meng To](<https://x.com/MengTo>) · **Tools / format:** Three.js, Blender, GPT Image 2 The author describes a multi-tool build: Astra for code, Blender for scene recreation, and GPT Image 2 for image assets. This is a game-and-trailer workflow, not a single video model output. [Original post]
 
 ## Prompt
-> ⚠️ **原帖未公开 prompt**。按收录原则照收 —— 先看原帖效果判断是否值得追，再到评论区蹲作者，或自己复现后 [提 PR](../CONTRIBUTING.md)。
+> ⚠️ **原帖未公开 prompt**。按收录原则照收 —— 先看原帖效果，再去评论区蹲作者或自己复现后提 PR。
 
 ## Provenance
 - **X 原帖:** <https://x.com/MengTo/status/2096213835460084184>

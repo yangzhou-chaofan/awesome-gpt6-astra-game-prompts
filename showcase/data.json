@@ -3,7 +3,7 @@
   "name": "GPT-6 Astra Game Prompt Showcase",
   "generated": "2026-09-11",
   "source_of_record": "X (Twitter) 原帖是唯一 record source；awesome lists 只是聚合索引。",
-  "entry_count": 115,
+  "entry_count": 103,
   "with_prompt": 34,
   "categories": {
    "arcade-action": {
@@ -35,7 +35,7 @@
  },
  "entries": [
   {
-   "title": "4. [AGI is 100% solved.](details/agi-is-100-solved-660277.md)",
+   "title": "AGI is 100% solved",
    "x": "https://x.com/higgsfield_ai/status/2096342420543660277",
    "owner": "higgsfield_ai",
    "date": "2026-09-05",
@@ -48,11 +48,11 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Take control of my computer using GPT-6 Astra and do the following:\n\n1. design a character concept using Higgsfield Soul 2.0,\n\n2. build a textured 3D model of it,\n\n3. import it into Blender,\n\n4. retopologize the mesh,\n\n5. create a UV map,\n\n6. build a character rig,\n\n7. evaluate how production-ready the model is,\n\n8. redo previous steps if you're not satisfied with results,\n\n9. and then turn it into a cartoon using Seedance 2.5 on Higgsfield",
-   "desc_clean": "AGI is 100% solved. <details> <summary><strong>Prompt</strong> — Take control of my computer using GPT-6 Astra and do the following: 1. design a character concept using Higgsfield Soul 2.0, 2. build a textured 3D model of it, 3. import it into…</summary> ~~",
+   "desc": "AGI is 100% solved. <details> <summary><strong>Prompt</strong> — Take control of my computer using GPT-6 Astra and do the following: 1. design a character concept using Higgsfield Soul 2.0, 2. build a textured 3D model of it, 3. import it into…</summary> ~~",
    "featured": ""
   },
   {
-   "title": "8. [💥 A few chats with GPT-6 Astra turned into an interactive 3D Chinese courtyard!](details/a-few-chats-with-gpt-6-astra-turned-into-an-interactive-3",
+   "title": "💥 A few chats with GPT-6 Astra turned into an interactive 3D Chinese c",
    "x": "https://x.com/MrLarus/status/2096971051334857181",
    "owner": "MrLarus",
    "date": "2026-09-07",
@@ -65,7 +65,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Build an interactive Chinese courtyard using Blender and Three.js that I can explore in a browser.\n\nInclude white walls, dark tiled roofs, a moon gate, pine trees, a pond, and a rock garden, with a living room, tea room, and bedroom. Use Python to run Blender in the background, generate the models, and export GLB files. Use Three.js for lighting, reflections, animation, and interaction.\n\nSupport orbit controls, zoom, WASD navigation, day/night switching, and a roof toggle. Gradually add flowing water, koi, hopping frogs, dragonflies, a courtyard cat, sparrows, and nighttime fireflies. Keep movements subtle and natural.\n\nCreate an original interface that leaves the scene unobstructed. Build in stages, inspect the results in the browser, fix issues, and deliver the runnable project, source files, and setup instructions.",
-   "desc_clean": "💥 A few chats with GPT-6 Astra turned into an interactive 3D Chinese courtyard! <details> <summary><strong>Prompt</strong> — Build an interactive Chinese courtyar",
+   "desc": "💥 A few chats with GPT-6 Astra turned into an interactive 3D Chinese courtyard! <details> <summary><strong>Prompt</strong> — Build an interactive Chinese courtyar",
    "featured": ""
   },
   {
@@ -84,7 +84,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "Model an energy core, two rings and a metal base in Blender. Export the materials to a Three.js viewer with rotation, zoom, automatic orbit and pulse controls.",
-   "desc_clean": "ruofeng · 2026-09-06",
+   "desc": "ruofeng · 2026-09-06",
    "featured": ""
   },
   {
@@ -100,7 +100,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Compose an original short piece and build a playable 3D ensemble. Drive animation from audio time. Include seeking, slow motion, camera controls, MIDI and source.",
-   "desc_clean": "Generator · 2026-09-05 Astra was asked to create an original short piece and a playable 3D ensemble with audio-driven animation, seeking, slow motion, camera controls, MIDI, and source.",
+   "desc": "Generator · 2026-09-05 Astra was asked to create an original short piece and a playable 3D ensemble with audio-driven animation, seeking, slow motion, camera controls, MIDI, and source.",
    "featured": ""
   },
   {
@@ -116,7 +116,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Create nuclear explosion demo with a 3D city, nuclear flash, expanding shockwave, fireball, smoke, and buildings that progressively fracture/collapse when the blast reaches them",
-   "desc_clean": "Ashish Thakur · 2026-09-06 A 3D nuclear explosion demonstration featuring a city, nuclear flash, expanding shockwave, fireball, smoke, and buildings that fracture and collapse as the blast reaches them.",
+   "desc": "Ashish Thakur · 2026-09-06 A 3D nuclear explosion demonstration featuring a city, nuclear flash, expanding shockwave, fireball, smoke, and buildings that fracture and collapse as the blast reaches them.",
    "featured": ""
   },
   {
@@ -132,7 +132,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Design a game with me. The game should be built in Unity. Use default asset first and I will replace assets later.\nGame style:\nA premium stylized coastal fantasy adventure game set in a small sunlit island city called Windhaven. The city is built from warm ivory limestone and golden sandstone, surrounded by clear turquoise water, with teal copper roofs, shaded market stalls, arched gateways, lush courtyard trees, carved fountains, glowing magical beacons, and a monumental temple overlooking the town. A lone young explorer wearing a travel cloak and backpack walks through the central plaza toward the temple. The environment feels peaceful, mysterious, ancient, and gently magical, with Mediterranean and North African architectural influences. High-detail stylized PBR materials, handcrafted stone surfaces, subtle weathering, elegant decorative carvings, soft afternoon sunlight, long cinematic shadows, turquoise and warm gold color palette, polished AA adventure game art direction, third-person gameplay camera, wide establishing shot, cohesive environment design, visually readable paths and landmarks, no UI, no text, no logos, no modern objects.",
-   "desc_clean": "Tripo · 2026-09-06 An author-provided Unity prompt for creating a playable stylized coastal fantasy adventure game and its 3D island-city environment, Windhaven, with a central plaza, temple, landmarks, and third-person gameplay direction.",
+   "desc": "Tripo · 2026-09-06 An author-provided Unity prompt for creating a playable stylized coastal fantasy adventure game and its 3D island-city environment, Windhaven, with a central plaza, temple, landmarks, and third-person gameplay direction.",
    "featured": "长叙事 prompt：风格→世界→镜头→负面约束，一段扛住全案"
   },
   {
@@ -148,7 +148,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Using Three.js, create a polished, fully playable 3D dark-fantasy action RPG from scratch.\n\nUse a top-down angled follow camera. The setting is a grand Gothic sanctuary reclaimed by forest, featuring ruined towers, arcades, moss-covered stone bridges, rolling hills, streams, waterfalls, and campfires. Create a richly layered atmosphere through realistic materials, cinematic lighting, light mist, wind-swept vegetation, and flowing water.\n\nThe protagonist is a powerful knight wearing intricately crafted steel-and-gold heavy armor, with a flowing cape and a glowing rune sword and shield. The character must be able to move, slash, roll, block, heal, and cast magic featuring massive magic circles, beams of light, and lightning effects. After defeating the guards, the player must face a giant antlered knight boss.\n\nAttack animations, visual effects, and hit directions must all match the character’s facing direction. Include a polished Traditional Chinese HUD, a character equipment display, and complete victory, defeat, and restart flows.\n\nHandle the modeling, asset creation or acquisition, programming, and performance optimization independently. Aim for AAA-level visual polish. Continuously playtest the game, inspect the visuals, and fix issues until delivering a complete playable game, launch instructions, and the source code.",
-   "desc_clean": "Prompt Case · 2026-09-06 A prompt for creating a fully playable 3D dark-fantasy action RPG in Three.js, including a Gothic forest-reclaimed sanctuary, knight combat, magic, a boss encounter, Traditional Chinese HUD elements, and complete game flows.",
+   "desc": "Prompt Case · 2026-09-06 A prompt for creating a fully playable 3D dark-fantasy action RPG in Three.js, including a Gothic forest-reclaimed sanctuary, knight combat, magic, a boss encounter, Traditional Chinese HUD elements, and complete game flows.",
    "featured": "单 prompt 出完整 ARPG：氛围与玩法系统的平衡最好"
   },
   {
@@ -164,7 +164,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Let’s create a game called Mini World. It’s a 3D world exploration game with a beautiful, high-quality graphic interface, designed to be fun and easy to play for my four-and-a-half-year-old son. You should be able to zoom in and zoom out. From far away, the world looks like a small ball, but inside it has different regions to explore. One region can look like a forest, another can be a desert, and there can also be oceans where the character can swim around. The game has to feel fun and playable, with a character who can travel around different parts of the world, explore different environments, and discover things along the way. Please treat making this work properly as the main goal. It should be beautifully designed and thoroughly tested in a loop so that the movement, zooming, exploration, swimming, environments, controls, and overall experience all work smoothly together. Keep testing and improving it until everything is working reliably and the game feels polished, intuitive, and enjoyable for a young child.",
-   "desc_clean": "Weijian Zhang · 2026-09-06 A reusable prompt for creating a child-friendly 3D world exploration game with a spherical world, zooming, forests, deserts, oceans, swimming, exploration, and iterative polish.",
+   "desc": "Weijian Zhang · 2026-09-06 A reusable prompt for creating a child-friendly 3D world exploration game with a spherical world, zooming, forests, deserts, oceans, swimming, exploration, and iterative polish.",
    "featured": "为真人设计（4岁孩子）：视角/缩放/难度约束即上手性"
   },
   {
@@ -180,7 +180,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Make a Grand Theft Auto game where CJ is a tycoon in Las Venturas, Michael is a shareholder in San Fierro.\nTrevor is a drug dealer in Los Santos, and Lucia and Jason are his associates.",
-   "desc_clean": "ElIngeRRC · 2026-09-06 Create a Grand Theft Auto game where CJ, Michael, Trevor, Lucia, and Jason take on the specified roles in different cities.",
+   "desc": "ElIngeRRC · 2026-09-06 Create a Grand Theft Auto game where CJ, Michael, Trevor, Lucia, and Jason take on the specified roles in different cities.",
    "featured": "极短 prompt 出复杂结果 —— 反差标杆"
   },
   {
@@ -196,7 +196,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Use the Blender MCP to make a LEGO minifig version of Donald Trump that I can use as a game asset. Make this exceptional quality, AAA game, and pressure test your work to make sure that it's detailed and accurate and excellent.",
-   "desc_clean": "Simon Smith · 2026-09-07 Creates a LEGO minifig version of Donald Trump as a high-quality AAA game asset using the Blender MCP.",
+   "desc": "Simon Smith · 2026-09-07 Creates a LEGO minifig version of Donald Trump as a high-quality AAA game asset using the Blender MCP.",
    "featured": ""
   },
   {
@@ -212,7 +212,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Create a new directory and build a browser-playable slime page. Use Three.js and WebGPU—do not fall back to WebGL.\n Place a round, plump slime in the center. Pink or teal-green is fine; make it semi-transparent, with faint bubbles visible inside. Let the user press and drag it with the mouse. When released, it should wobble back into shape, respond to light gravity, and gently land on an invisible tabletop. Don't make it look like a hard ball; it should feel soft and fleshy.\n Add a cute face: two black bead-like eyes and a small mouth that deform with the surface. The eyes and mouth should not be separate from the body. Add a few simple controls on the right for color, softness, and damping. A \"Poke\" button should make it bounce.\n Keep the page clean, with a light gray background and a large title. It should run at 60 FPS. First create a target image, then build to match it. Only add more detail after the screenshot looks right.",
-   "desc_clean": "码农暖爸 · 2026-09-07 The creator showcases a browser-based slime app called Softie and later shares the prompt used to make it. The prompt calls for a draggable, squeezable soft-body slime with adjustable controls.",
+   "desc": "码农暖爸 · 2026-09-07 The creator showcases a browser-based slime app called Softie and later shares the prompt used to make it. The prompt calls for a draggable, squeezable soft-body slime with adjustable controls.",
    "featured": ""
   },
   {
@@ -228,7 +228,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Step 1: Make a game exactly like League of Legends. It needs everything LOL has: the same map, matching visual quality, champions, minions, turrets, and so on. Start with five champions.\n\nStep 2: PUA (talk back to) Astra: This isn't League; it's a cheap knockoff. Write a plan first, then implement it precisely using real-world dimensions and mechanics. No HTML pasted on top for the UI—it must be native, polished, and feel like a real game.",
-   "desc_clean": "岚叔 · 2026-09-08 The post recommends a prompt for Astra to create a League of Legends-style mini-game featuring the map, champions, minions, turrets, and native in-game UI. This is recommended content, so it cannot be confirmed as the actual input used to create the work shown.",
+   "desc": "岚叔 · 2026-09-08 The post recommends a prompt for Astra to create a League of Legends-style mini-game featuring the map, champions, minions, turrets, and native in-game UI. This is recommended content, so it cannot be confirmed as the actual input used to create the work shown.",
    "featured": ""
   },
   {
@@ -244,11 +244,11 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Create a game that is exactly like League of Legends. It should include all of League of Legends' content, with the same map and a comparable level of visual quality, including champions, minions, turrets, and more. Start with five selected champions.",
-   "desc_clean": "李岳 · 2026-09-08 The author paraphrases and lists a prompt for creating a League of Legends-style web game, calling for the map, champions, minions, turrets, and a five-champion starting lineup to be recreated. The prompt describes a 3D game creation goal, but the post does not make clear whether the author actually entered it.",
+   "desc": "李岳 · 2026-09-08 The author paraphrases and lists a prompt for creating a League of Legends-style web game, calling for the map, champions, minions, turrets, and a five-champion starting lineup to be recreated. The prompt describes a 3D game creation goal, but the post does not make clear whether the author actually entered it.",
    "featured": ""
   },
   {
-   "title": "Building a Comedy Scene of a Robotic Arm Chasing a Cat with GPT-6 Astra and Blender",
+   "title": "Building a Comedy Scene of a Robotic Arm Chasing a Cat with GPT-6 Astr",
    "x": "https://x.com/TanLuAI/status/2097675660873605422",
    "owner": "TanLuAI",
    "date": "2026-09-09",
@@ -260,7 +260,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Generate a 10-second, 16:9 landscape animal comedy short with a realistic, live-action cinematic look\n. A household robotic arm chases and tries to grab an orange-and-white cat. The cat nimbly dodges and mischievously circles behind a storage box. The gripper clamps onto the orange tail sticking out from behind the box, then lifts it to reveal that it is a cat-tail-shaped toy. The real cat has circled around to the robotic arm's base and reaches out to press the red power-off button. The robotic arm shuts down, and the cat looks happy and satisfied.\n Start directly with the chase and grab attempt. Maintain suspense through occlusion in the middle, reveal the reversal when the toy is lifted, and end with the cat actively shutting down the arm for a second punchline. Use only diegetic sound effects throughout; do not generate background music, BGM, narration, or dialogue.\n[Asset Anchors and Reference Rules]\nUse the reference video cat_robot_previs as a reference for camera movement, timing, motion paths, and spatial relationships.\nThe orange block-shaped body, white feet, and geometric figure with ears and a tail in the reference video correspond to the real orange-and-white cat in Image 1.\nThe cream-white linkages, orange joints, three-finger gripper, and base with a red button correspond to the robotic arm in Image 2.\nThe small figure made of an upright orange tail, gray connector rod, and green base corresponds to the cat-tail-shaped toy in Image 3. The toy and the cat are two separate objects.\nThe central white box corresponds to the real cream-white storage box. Preserve its position, volume, and occlusion function. Use Image 4 as the reference for the indoor environment.\nGenerate the scene according to the reference video's edit timing, camera positions, shot sizes, the cat's route, the robotic gripper's tracking path, the occlusion behind the box, the toy's lifting path, and the contact relationship between the cat's paw and the button.\nThe cat's geometric translation is used only to indicate its motion path. Regenerate natural side hops, running, turning, crouching, head turns, and paw-raising actions. Subtle facial expressions and body movements may be added within the original positions and time ranges, without changing the key events or spatial relationships. Remove all graybox models, geometric placeholder shapes, and guide markers.\nImage 1 image: the only cat appearance reference.\nUse the same young adult orange-and-white short-haired cat throughout: orange tabby markings on the crown and back, a white muzzle and chest, four white paws, amber eyes, a pink nose, and an orange ringed tail with a pale tip. Preserve realistic body proportions, coat-color distribution, facial features, and tail length. Fine fur, natural whiskers, no clothing.\nImage 2 image: the only robotic arm appearance reference.\nCream-white housing, orange joint covers, dark-gray connectors, a soft three-finger gripper, and an amber status light at the wrist, mounted on a low, wide base. The red power-off button on the robotic arm's base must be reachable by the cat while standing on the floor. Keep the base fixed; the arm performs the chase and grab attempt through joint rotation.\nImage 3 image: the only cat-tail-shaped toy appearance reference.\nOrange ringed plush tail with a pale tip, connected underneath to a metal spring and a mint-green wobble base with a white fishbone pattern. When the gripper grabs the plush tail, the spring and base must be lifted together as one complete toy, with the connection remaining clear at all times.\nImage 4 image: scene appearance reference.\nUse the warm living room, light wood flooring, large windows with daylight, light-colored sofa, wooden furniture, houseplants, and pet-living details from Image 4 as references. All action takes place on the indoor floor. Do not include the studio backdrop or grid layout from the reference image in the final video.\n[Visual Style and Scene]\nThe photographic quality of a realistic pet short combined with a refined home-robot commercial: natural lighting, realistic materials, with comedy driven by behavior and timing.\nA spacious residential living room with light oak flooring featuring fine wood grain and soft reflections. Warm daylight enters through floor-to-ceiling windows on the left. Sheer curtains cast soft shadows across the floor, while the cat's fur edges and the robotic arm's housing catch natural rim light.\nThe background includes a light-gray sofa, throw pillows, a small coffee table, a rug, a warm-toned floor lamp, and storage cabinets. Place houseplants by the window, with a cat bed and scratching post to the side. Keep the rug in the distance so the foreground activity area remains a continuous, open expanse of wood flooring.\nPlace a cream-white, round-cornered storage box slightly behind center, with a pale orange handle. The box should conceal the crouching cat and the toy's base while leaving connected routes open on the left, right, and behind it. Position the robotic arm to the right of the box, with its red button facing the position where the cat eventually arrives.\nKeep the camera near the cat's eye level, with the subjects clearly visible and the background moderately blurred. Use a low angle to emphasize the suddenness of the gripper's downward grab, the cat's nimble movements, and the layered reveal behind the box. Give every contact natural shadows and believable force feedback.",
-   "desc_clean": "探路AI · 2026-09-09 The author says they used GPT-6 Astra and Blender to build the scene and camera setup, and shared Chinese generation requirements for a 10-second animal comedy short. The prompt defines an orange-and-white cat, a household robotic arm, a cat-tail-shaped toy, a living room setting, camera relationships, and a comedic reversal.",
+   "desc": "探路AI · 2026-09-09 The author says they used GPT-6 Astra and Blender to build the scene and camera setup, and shared Chinese generation requirements for a 10-second animal comedy short. The prompt defines an orange-and-white cat, a household robotic arm, a cat-tail-shaped toy, a living room setting, camera relationships, and a comedic reversal.",
    "featured": ""
   },
   {
@@ -278,7 +278,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Build a kaiju-inspired Three.js game using generated creature models and sound effects. Create readable giant-scale combat and an environment that communicates the size of the creatures.",
-   "desc_clean": "Majid Manzarpour · 2026-09-05",
+   "desc": "Majid Manzarpour · 2026-09-05",
    "featured": ""
   },
   {
@@ -294,7 +294,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Build a Three.js flight game featuring the 1903 Wright Flyer in a Japanese forest. Research the aircraft and procedurally create the plane, trees, torii gates, houses and mountains without external assets.",
-   "desc_clean": "The Bugged Dev · 2026-09-06",
+   "desc": "The Bugged Dev · 2026-09-06",
    "featured": ""
   },
   {
@@ -312,7 +312,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Build a Three.js crab game from a structured brief covering appearance, character, world, actions, goals, interface and camera. Make coins rise and fly toward the passing crab; flag contradictory requirements.",
-   "desc_clean": "ZEUS⚡️ · 2026-09-05",
+   "desc": "ZEUS⚡️ · 2026-09-05",
    "featured": ""
   },
   {
@@ -328,7 +328,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "can you rig and animate this glb, i want to see the digitigrade legs walking convincingly in a godot preview please",
-   "desc_clean": "Om Patel · 2026-09-08 The quoted prompt asks Astra to rig an existing GLB mech and animate its digitigrade legs for a Godot preview.",
+   "desc": "Om Patel · 2026-09-08 The quoted prompt asks Astra to rig an existing GLB mech and animate its digitigrade legs for a Godot preview.",
    "featured": ""
   },
   {
@@ -346,7 +346,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Build a playable sailing world with a Blender ship and a Three.js ocean. Add changing weather, underwater exploration, wake, foam, spray and moving sails.",
-   "desc_clean": "Yash · 2026-09-06",
+   "desc": "Yash · 2026-09-06",
    "featured": ""
   },
   {
@@ -362,7 +362,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Build a snowy Three.js exploration game with a Blender character, voxel pines and a stone waygate. Collect six glowing fragments, follow the character with the camera and show the gate's distance.",
-   "desc_clean": "MotionViz · 2026-09-06",
+   "desc": "MotionViz · 2026-09-06",
    "featured": ""
   },
   {
@@ -378,7 +378,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Build a Warcraft-inspired character scene with Astra, Tripo P2, Blender and Unity. Generate the character asset, prepare it in Blender and assemble a playable scene in Unity.",
-   "desc_clean": "Lucca Cerf ➔ Pluma Finance · 2026-09-05",
+   "desc": "Lucca Cerf ➔ Pluma Finance · 2026-09-05",
    "featured": ""
   },
   {
@@ -394,7 +394,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Build a WebGL city game using RIO_MA002.fbx as the player. Model referenced vehicles and streets in Blender, then improve NPCs, driving physics, destructible props and suburban areas.",
-   "desc_clean": "DJ RIO \\ REALITY · 2026-09-06",
+   "desc": "DJ RIO \\ REALITY · 2026-09-06",
    "featured": ""
   },
   {
@@ -410,7 +410,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Research the protagonist's apartment from D4 and recreate it as a playable 3D prototype. Inspect the layout and interactions against references rather than assuming an exact recreation.",
-   "desc_clean": "Hidetaka SWERY SueHERO · 2026-09-06",
+   "desc": "Hidetaka SWERY SueHERO · 2026-09-06",
    "featured": ""
   },
   {
@@ -426,7 +426,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Build a Three.js trading-card prototype: buy decks and boosters, construct a deck, enter a battle arena and earn rewards. Keep placeholder meshes replaceable with finished assets.",
-   "desc_clean": "FaryaBlender3D · 2026-09-06",
+   "desc": "FaryaBlender3D · 2026-09-06",
    "featured": ""
   },
   {
@@ -442,7 +442,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Build a 3D river kayaking game with anime-inspired aesthetics. Let the player paddle left and right to avoid obstacles, with flowing water, scenery, music and sound effects generated in code.",
-   "desc_clean": "AJ · 2026-09-05",
+   "desc": "AJ · 2026-09-05",
    "featured": ""
   },
   {
@@ -458,11 +458,11 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Build a playable 3D treasure hunt on a beach in Unity. Model low-poly palm trees and wooden decks, and establish the core exploration and treasure-finding loop.",
-   "desc_clean": "空野こんこん＠個人ゲーム開発者 · 2026-09-06",
+   "desc": "空野こんこん＠個人ゲーム開発者 · 2026-09-06",
    "featured": ""
   },
   {
-   "title": "Browser racing physics in C# and WASM",
+   "title": "Browser racing physics in C and WASM",
    "x": "https://x.com/achepta_tm/status/2096258619574513880",
    "owner": "achepta_tm",
    "date": "2026-09-05",
@@ -474,7 +474,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Recreate a Trackmania-style racing physics system in C#, run it through WASM and render the course in Three.js. Use collidable track meshes and test vehicle handling.",
-   "desc_clean": "achepta · 2026-09-05",
+   "desc": "achepta · 2026-09-05",
    "featured": ""
   },
   {
@@ -490,7 +490,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Expand a Three.js train model into a railway simulation with cities, junctions, rivers and bridges. Add train-following, free 3D and isometric cameras, plus smoke effects.",
-   "desc_clean": "Tom Krcha · 2026-09-05",
+   "desc": "Tom Krcha · 2026-09-05",
    "featured": ""
   },
   {
@@ -506,7 +506,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "build an interactive jelly lemon tree using WebGPU",
-   "desc_clean": "Vib3Coded · 2026-09-07 Creates an interactive 3D jelly lemon tree in WebGPU, with branches that sway, mouse-pickable lemons, and squash-and-bounce physics.",
+   "desc": "Vib3Coded · 2026-09-07 Creates an interactive 3D jelly lemon tree in WebGPU, with branches that sway, mouse-pickable lemons, and squash-and-bounce physics.",
    "featured": ""
   },
   {
@@ -522,7 +522,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Build a complete 3D puzzle-game level in Three.js, including its playable mechanics. Integrate supplied audio after the level and interactions work.",
-   "desc_clean": "Steve的花园儿 · 2026-09-06",
+   "desc": "Steve的花园儿 · 2026-09-06",
    "featured": ""
   },
   {
@@ -538,7 +538,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Build a playable 3D shogi application with a freely rotatable board. Refine the board, pieces and interactions through successive reviews.",
-   "desc_clean": "薄幸柄 / LAB · 2026-09-06",
+   "desc": "薄幸柄 / LAB · 2026-09-06",
    "featured": ""
   },
   {
@@ -554,7 +554,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Fully rebuild the famous Lego 1999 Racers driving game.",
-   "desc_clean": "Mo Elgaraihy · 2026-09-06 A prompt to fully rebuild the Lego 1999 Racers driving game using GPT-6 Astra.",
+   "desc": "Mo Elgaraihy · 2026-09-06 A prompt to fully rebuild the Lego 1999 Racers driving game using GPT-6 Astra.",
    "featured": "完整游戏复刻 + 怀旧对比，可复现性强"
   },
   {
@@ -570,7 +570,7 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Build a rally-driving prototype with Codex, Blender and Unity. Prepare its 3D assets and controls for playtesting on a phone.",
-   "desc_clean": "Kevin Kern · 2026-09-06",
+   "desc": "Kevin Kern · 2026-09-06",
    "featured": ""
   },
   {
@@ -586,29 +586,11 @@
     "TripoGrowthLab_awesome-astra-prompts"
    ],
    "prompt": "Build an interactive Three.js Hyperloop demonstration showing a transport pod, tube infrastructure and motion through the system.",
-   "desc_clean": "Amir · 2026-09-05",
+   "desc": "Amir · 2026-09-05",
    "featured": ""
   },
   {
-   "title": "RPGs & adventures",
-   "x": "https://x.com/TheRohanVarma/status/2096744577332068549",
-   "owner": "TheRohanVarma",
-   "date": "",
-   "cat": "adventure-rpg",
-   "slug": "rpgs-adventures",
-   "has_prompt": false,
-   "demos": [],
-   "sources": [
-    "MartinDelophy_awesome-gpt-6-astra",
-    "magiccreator-ai_awesome-gpt-6-astra",
-    "xianyu110_awesome-gpt-6-astra"
-   ],
-   "prompt": "",
-   "desc_clean": "Role-playing, exploration, narrative adventures, and interactive stories. - **[The Sunshard](https://mindblown.ai/games/the-sunshard)** — Explore a voxel-style action RPG, fight Hollowborn with Spark Bolt and Sunburst, blink away from danger and awaken the sun gate. - Creator: [Mindblown / @mind](https://mindblown.ai/@mind) · [Mindblown](https://mindblown.ai/) · X - Platform: D",
-   "featured": ""
-  },
-  {
-   "title": "09. 只看屏幕通关《火红》",
+   "title": "只看屏幕通关《火红》",
    "x": "https://x.com/Clad3815/status/2095596013168050551",
    "owner": "Clad3815",
    "date": "2026-09-03",
@@ -622,11 +604,11 @@
     "xianyu110_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "Clad3815 · 2026-09-03 · 原帖 Astra 18h12m；Sol 96h35m；GPT-5.5 跑 218h 未完。",
+   "desc": "Clad3815 · 2026-09-03 · 原帖 Astra 18h12m；Sol 96h35m；GPT-5.5 跑 218h 未完。",
    "featured": ""
   },
   {
-   "title": "14. Godot 索尼克 Max vs Medium",
+   "title": "Godot 索尼克 Max vs Medium",
    "x": "https://x.com/AiBattle_/status/2095994051354919049",
    "owner": "AiBattle_",
    "date": "2026-09-04",
@@ -640,11 +622,11 @@
     "xianyu110_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "AiBattle · 2026-09-04 · 原帖 同一提示词：53 分钟 / 4% vs 25 分钟 / 1%。",
+   "desc": "AiBattle · 2026-09-04 · 原帖 同一提示词：53 分钟 / 4% vs 25 分钟 / 1%。",
    "featured": ""
   },
   {
-   "title": "13. 语音通关《杀戮尖塔 2》",
+   "title": "语音通关《杀戮尖塔 2》",
    "x": "https://x.com/coolish/status/2096195104809873710",
    "owner": "coolish",
    "date": "2026-09-05",
@@ -658,11 +640,11 @@
     "xianyu110_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "paulwei · 2026-09-05 · 原帖 没写复杂 prompt，模型自学键位打了 48 层。",
+   "desc": "paulwei · 2026-09-05 · 原帖 没写复杂 prompt，模型自学键位打了 48 层。",
    "featured": "Computer Use 边界案例：零游戏 API，全靠看屏幕"
   },
   {
-   "title": "32. [1 shotted this w/ GPT-6 Astra](details/1-shotted-this-w-gpt-6-astra-964963.md)",
+   "title": "1 shotted this w/ GPT-6 Astra",
    "x": "https://x.com/d4m1n/status/2096258259459964963",
    "owner": "d4m1n",
    "date": "",
@@ -675,132 +657,11 @@
     "LuxRealGrowth_awesome-astra-video-prompts"
    ],
    "prompt": "",
-   "desc_clean": "1 shotted this w/ GPT-6 Astra <details> <summary><strong>Prompt</strong> — can we create an overall video presenting the concept of AdCar TV? make an intro video of 30-60s showing nice visuals (maybe the 3d of the car)? and really cool car anim",
+   "desc": "1 shotted this w/ GPT-6 Astra <details> <summary><strong>Prompt</strong> — can we create an overall video presenting the concept of AdCar TV? make an intro video of 30-60s showing nice visuals (maybe the 3d of the car)? and really cool car anim",
    "featured": ""
   },
   {
-   "title": "Action & arcade",
-   "x": "https://x.com/CtrlAltDwayne/status/2097499157967818780",
-   "owner": "CtrlAltDwayne",
-   "date": "",
-   "cat": "adventure-rpg",
-   "slug": "action-arcade",
-   "has_prompt": false,
-   "demos": [
-    "https://x.com/OpenDesignHQ"
-   ],
-   "sources": [
-    "MartinDelophy_awesome-gpt-6-astra",
-    "xianyu110_awesome-gpt-6-astra"
-   ],
-   "prompt": "",
-   "desc_clean": "Shooters, fighters, survival games, rhythm games, and anything that invites one more round. - **[Mosswing](https://mosswing-quiet-flight.jack-514.chatgpt.site/)** — A 3D tap-to-flap game about flying through gaps and building your score. - Creator: [Ayi1337](https://github.com/Ayi1337) - Platform: Browser, designed for mobile. - GPT-6 Astra: [Creator's one-shot tests and origin",
-   "featured": ""
-  },
-  {
-   "title": "Puzzles & brain games",
-   "x": "https://x.com/edmund5/status/2097603093819261002",
-   "owner": "edmund5",
-   "date": "",
-   "cat": "sim-toy",
-   "slug": "puzzles-brain-games",
-   "has_prompt": false,
-   "demos": [],
-   "sources": [
-    "MartinDelophy_awesome-gpt-6-astra",
-    "xianyu110_awesome-gpt-6-astra"
-   ],
-   "prompt": "",
-   "desc_clean": "Logic puzzles, physics challenges, word games, and clever little mechanisms. - **[瓜体实验室 / Melon Lab](https://melon-game.jack-514.chatgpt.site/)** — A watermelon merging game built around soft-body fruit deformation and collisions. - Creator: [Ayi1337](https://github.com/Ayi1337) - Platform: Modern browser; the creator also provides a downloadable standalone HTML version. - GPT-",
-   "featured": ""
-  },
-  {
-   "title": "Strategy & simulation",
-   "x": "https://x.com/echo3042/status/2096123409029886250",
-   "owner": "echo3042",
-   "date": "",
-   "cat": "multiplayer-battle",
-   "slug": "strategy-simulation",
-   "has_prompt": false,
-   "demos": [],
-   "sources": [
-    "MartinDelophy_awesome-gpt-6-astra",
-    "xianyu110_awesome-gpt-6-astra"
-   ],
-   "prompt": "",
-   "desc_clean": "Tower defense, strategic card games, management games, building, and simulation sandboxes. - **[Dwellcraft · 住进想象](https://dwellcraft.vercel.app/)** — Furnish three homes by dragging furniture into a 3D layout, customize materials and lighting, then walk through the result at eye level; includes local saves and personal GLB model imports. - Creator: [Ryan-fm](https://github.com",
-   "featured": ""
-  },
-  {
-   "title": "Experimental & multiplayer",
-   "x": "https://x.com/antonioleivag/status/2096509898481651770",
-   "owner": "antonioleivag",
-   "date": "",
-   "cat": "multiplayer-battle",
-   "slug": "experimental-multiplayer",
-   "has_prompt": false,
-   "demos": [],
-   "sources": [
-    "MartinDelophy_awesome-gpt-6-astra",
-    "xianyu110_awesome-gpt-6-astra"
-   ],
-   "prompt": "",
-   "desc_clean": "Unusual mechanics, online competition, and cooperative experiences. - **[ASTRA Arcade](https://astra-arcade.antonioleivag.chatgpt.site/)** — Six browser games in one arcade, including mountain rally, snowboarding and antigravity racing; counted as one collection. - Creator: Antonio Leiva - Platform: Desktop browser; opened without login or payment. Mobile support was not tested",
-   "featured": ""
-  },
-  {
-   "title": "Benchmarks & Cost Tests",
-   "x": "https://x.com/i/status/2096030719156089029",
-   "owner": "i",
-   "date": "",
-   "cat": "multiplayer-battle",
-   "slug": "benchmarks-cost-tests",
-   "has_prompt": false,
-   "demos": [],
-   "sources": [
-    "archorfight_awesome-gpt-6-astra",
-    "xianyu110_awesome-gpt-6-astra"
-   ],
-   "prompt": "",
-   "desc_clean": "Tier tests and head-to-head comparisons. Demo Author Traction Highlight --- --- --- --- Best Bach Benchmark result yet aug5thmusic 8,105 likes No voice-leading errors, first model to write correct passing tones — music theory, not vibes Max vs Medium tier cost test AiBattle_ 5,120 likes 53 min at 4% weekly quota vs 25 min at 1% [Video gen vs Fable 5.1](https://x.com/i/sta",
-   "featured": ""
-  },
-  {
-   "title": "从作品出发，找到下一次三维创作的起点。",
-   "x": "https://x.com/rpnickson/status/2097488440489116111",
-   "owner": "rpnickson",
-   "date": "",
-   "cat": "arcade-action",
-   "slug": "从作品出发找到下一次三维创作的起点",
-   "has_prompt": false,
-   "demos": [],
-   "sources": [
-    "carpentry-liu_awesome-astra-3d",
-    "magiccreator-ai_awesome-gpt-6-astra"
-   ],
-   "prompt": "",
-   "desc_clean": "探索 GPT-6 Astra 的 3D 作品：Blender、Three.js、WebGL、CAD、VRM 与交互游戏。按来源分级，直达工程、演示和完整视频。 **[打开在线演示](https://carpentry-liu.github.io/awesome-astra-3d/) · [探索最新案例](https://carpentry-liu.github.io/awesome-astra-3d/?order=newest#collection) · [贡献案例](CONTRIBUTING.md)** 简体中文 · [English](README.en.md) </div> <!-- atlas:summary:start --> 截至 **2026-09-11（Asia/Shanghai）**：**135 条 Astra 案例** · **4",
-   "featured": ""
-  },
-  {
-   "title": "游戏与可玩原型",
-   "x": "https://x.com/imoutoftokensFR/status/2096202083561054342",
-   "owner": "imoutoftokensFR",
-   "date": "",
-   "cat": "multiplayer-battle",
-   "slug": "游戏与可玩原型",
-   "has_prompt": false,
-   "demos": [],
-   "sources": [
-    "helloianneo_awesome-gpt6-astra",
-    "xianyu110_awesome-gpt-6-astra"
-   ],
-   "prompt": "",
-   "desc_clean": "**三岁小孩动力沙 / 卡车 / 恐龙** — 一句 prompt，约 27 分钟可玩。imoutoftokensFR · original · 09-05 - **Astral War** — 浏览器 FPS，一天做出。RealFedeURU · original · 09-05 - **Three.js MMORPG 区域** — 网页端 one prompt：营地、交易、技能栏。oceanbennett · original · 09-05 - **Fer",
-   "featured": ""
-  },
-  {
-   "title": "05. Fall Guys 到 5 天 SimCity",
+   "title": "Fall Guys 到 5 天 SimCity",
    "x": "https://x.com/MatthewBerman/status/2095595892464333065",
    "owner": "MatthewBerman",
    "date": "2026-09-03",
@@ -813,11 +674,11 @@
     "xianyu110_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "Matthew Berman · 2026-09-03 · [评测](https://signals.forwardfuture.com/astra-review/) · 原帖 早期最完整长线程之一，含游戏、世界与浏览器控制。",
+   "desc": "Matthew Berman · 2026-09-03 · [评测](https://signals.forwardfuture.com/astra-review/) · 原帖 早期最完整长线程之一，含游戏、世界与浏览器控制。",
    "featured": ""
   },
   {
-   "title": "01. Afterlight · 45 分钟 3D 游戏",
+   "title": "Afterlight",
    "x": "https://x.com/anshuc/status/2096008083826725132",
    "owner": "anshuc",
    "date": "2026-09-04",
@@ -830,11 +691,11 @@
     "xianyu110_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "Anshu · 2026-09-04 · 原帖 概念图对标到 60fps 的 one-shot 原型。",
+   "desc": "Anshu · 2026-09-04 · 原帖 概念图对标到 60fps 的 one-shot 原型。",
    "featured": ""
   },
   {
-   "title": "1. [20 m². Bed, desk, sofa, kitchen.](details/20-m-bed-desk-sofa-kitchen-409988.md)",
+   "title": "20 m². Bed, desk, sofa, kitchen",
    "x": "https://x.com/groovestreetgen/status/2096377743701409988",
    "owner": "groovestreetgen",
    "date": "",
@@ -846,11 +707,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "20 m². Bed, desk, sofa, kitchen. <details> <summary><strong>Prompt</strong> — I asked Astra to turn an empty room into a furnished 3D concept—and keep every object editable.</summary> ~~~~text I asked Astra to turn an empty room into",
+   "desc": "20 m². Bed, desk, sofa, kitchen. <details> <summary><strong>Prompt</strong> — I asked Astra to turn an empty room into a furnished 3D concept—and keep every object editable.</summary> ~~~~text I asked Astra to turn an empty room into",
    "featured": ""
   },
   {
-   "title": "2. [「日本アニメでよく見られる、二脚人型の、いわゆる『リアルロボット』の3Dモデルを作成してください」として、GPT-6 Astraに作成させたもの。Blender-mcp経由。](details/3d-gpt-6-astra-blender-mcp-753410.md)",
+   "title": "「日本アニメでよく見られる、二脚人型の、いわゆる『リアルロボット』の3Dモデルを作成してください」として、GPT-6 Astraに作成させた",
    "x": "https://x.com/hawkymisc/status/2096797700922753410",
    "owner": "hawkymisc",
    "date": "",
@@ -862,11 +723,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "「日本アニメでよく見られる、二脚人型の、いわゆる『リアルロボット』の3Dモデルを作成してください」として、GPT-6 Astraに作成させたもの。Blender-mcp経由。 <details> <summary><strong>Prompt</strong> — 「日本アニメでよく見られる、二脚人型の、いわゆる『リアルロボット』の3Dモデルを作成してください」として",
+   "desc": "「日本アニメでよく見られる、二脚人型の、いわゆる『リアルロボット』の3Dモデルを作成してください」として、GPT-6 Astraに作成させたもの。Blender-mcp経由。 <details> <summary><strong>Prompt</strong> — 「日本アニメでよく見られる、二脚人型の、いわゆる『リアルロボット』の3Dモデルを作成してください」として",
    "featured": ""
   },
   {
-   "title": "3. [a couple of weeks ago I built a 3d morphogenesis harness that builds better 3d models from scrat](details/a-couple-of-weeks-ago-i-built-a-3d-morph",
+   "title": "a couple of weeks ago I built a 3d morphogenesis harness that builds b",
    "x": "https://x.com/andreasxirtus/status/2095794528410124515",
    "owner": "andreasxirtus",
    "date": "",
@@ -878,11 +739,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "a couple of weeks ago I built a 3d morphogenesis harness that builds better 3d models from scrat <details> <summary><strong>Prompt</stron",
+   "desc": "a couple of weeks ago I built a 3d morphogenesis harness that builds better 3d models from scrat <details> <summary><strong>Prompt</stron",
    "featured": ""
   },
   {
-   "title": "6. [asked GPT 6 Astra to recreate the 2017 Roblox Anthem Trailer in Blender.](details/asked-gpt-6-astra-to-recreate-the-2017-roblox-anthem-trailer-in-",
+   "title": "asked GPT 6 Astra to recreate the 2017 Roblox Anthem Trailer in Blende",
    "x": "https://x.com/LeftWingFash/status/2097193662283161673",
    "owner": "LeftWingFash",
    "date": "",
@@ -894,11 +755,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "asked GPT 6 Astra to recreate the 2017 Roblox Anthem Trailer in Blender. <details> <summary><strong>Prompt</strong> — asked GPT 6 Astra to recreate the 2017 Ro",
+   "desc": "asked GPT 6 Astra to recreate the 2017 Roblox Anthem Trailer in Blender. <details> <summary><strong>Prompt</strong> — asked GPT 6 Astra to recreate the 2017 Ro",
    "featured": ""
   },
   {
-   "title": "7. [一张图，直接变成一个能“逛”的 3D 世界](details/3d-551649.md)",
+   "title": "一张图，直接变成一个能“逛”的 3D 世界",
    "x": "https://x.com/Adam38363368936/status/2096787471107551649",
    "owner": "Adam38363368936",
    "date": "",
@@ -910,11 +771,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "一张图，直接变成一个能“逛”的 3D 世界 <details> <summary><strong>Prompt</strong> — 我把这张赛博城市概念图丢给 GPT-6 Astra，让它自己理解空间、光照和画面层次，然后直接用 Three.js 写成一个单文件 3D 场景。</summary> ~~~~text 我把这张赛博城市概念图丢给 GPT-6 Astra，让它自己理解空间、光照和画面层次，然后直接用 Three.js 写成一个单文件 3D 场景。 ~~~~ </details> **Model:** GPT-6 Astr",
+   "desc": "一张图，直接变成一个能“逛”的 3D 世界 <details> <summary><strong>Prompt</strong> — 我把这张赛博城市概念图丢给 GPT-6 Astra，让它自己理解空间、光照和画面层次，然后直接用 Three.js 写成一个单文件 3D 场景。</summary> ~~~~text 我把这张赛博城市概念图丢给 GPT-6 Astra，让它自己理解空间、光照和画面层次，然后直接用 Three.js 写成一个单文件 3D 场景。 ~~~~ </details> **Model:** GPT-6 Astr",
    "featured": ""
   },
   {
-   "title": "9. [AGI怕是真的要来了！！](details/agi-770671.md)",
+   "title": "AGI怕是真的要来了！！",
    "x": "https://x.com/rionaifantasy/status/2096163579925770671",
    "owner": "rionaifantasy",
    "date": "",
@@ -926,11 +787,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "AGI怕是真的要来了！！ <details> <summary><strong>Prompt</strong> — 我给GPT-6 Astra提供了几张我在澳洲留学时住的宿舍房间照片，让他建立了一个loop循环，使用three.js和blender来设计一个交互式3d场景，</summary> ~~~~text 我给GPT-6 Astra提供了几张我在澳洲留学时住的宿舍房间照片，让他建立了一个loop循环，使用three.js和blender来设计一个交互式3d场景， ~~~~ </details> **Model:** GPT-6 Astra",
+   "desc": "AGI怕是真的要来了！！ <details> <summary><strong>Prompt</strong> — 我给GPT-6 Astra提供了几张我在澳洲留学时住的宿舍房间照片，让他建立了一个loop循环，使用three.js和blender来设计一个交互式3d场景，</summary> ~~~~text 我给GPT-6 Astra提供了几张我在澳洲留学时住的宿舍房间照片，让他建立了一个loop循环，使用three.js和blender来设计一个交互式3d场景， ~~~~ </details> **Model:** GPT-6 Astra",
    "featured": ""
   },
   {
-   "title": "10. [asked GPT 6 Astra to build a knight vs mage battle in threejs](details/asked-gpt-6-astra-to-build-a-knight-vs-mage-battle-in-357923.md)",
+   "title": "asked GPT 6 Astra to build a knight vs mage battle in threejs",
    "x": "https://x.com/LexnLin/status/2096799556478357923",
    "owner": "LexnLin",
    "date": "",
@@ -942,11 +803,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "asked GPT 6 Astra to build a knight vs mage battle in threejs <details> <summary><strong>Prompt</strong> — asked GPT 6 Astra to build a knight vs mage battle in threejs</summary> ~~~~te",
+   "desc": "asked GPT 6 Astra to build a knight vs mage battle in threejs <details> <summary><strong>Prompt</strong> — asked GPT 6 Astra to build a knight vs mage battle in threejs</summary> ~~~~te",
    "featured": ""
   },
   {
-   "title": "11. [ı asked GPT-6 Astra to make valorant](details/asked-gpt-6-astra-to-make-valorant-069548.md)",
+   "title": "ı asked GPT-6 Astra to make valorant",
    "x": "https://x.com/valohabercisi/status/2096550643599069548",
    "owner": "valohabercisi",
    "date": "",
@@ -958,11 +819,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "ı asked GPT-6 Astra to make valorant <details> <summary><strong>Prompt</strong> — hey gpt-6 astra, make me VALORANT in three.js, make no mistakes. as a map use valorants</summary> ~~~~text hey gpt-6 astra, make me VALORANT",
+   "desc": "ı asked GPT-6 Astra to make valorant <details> <summary><strong>Prompt</strong> — hey gpt-6 astra, make me VALORANT in three.js, make no mistakes. as a map use valorants</summary> ~~~~text hey gpt-6 astra, make me VALORANT",
    "featured": ""
   },
   {
-   "title": "12. [Build a finished, polished kart racer in Roblox Studio via Roblox MCP. Create cohesive, detailed](details/build-a-finished-polished-kart-racer-in",
+   "title": "Build a finished, polished kart racer in Roblox Studio via Roblox MCP.",
    "x": "https://x.com/givros/status/2096219700879331665",
    "owner": "givros",
    "date": "",
@@ -974,11 +835,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "Build a finished, polished kart racer in Roblox Studio via Roblox MCP. Create cohesive, detailed <details> <summary><strong>Prompt</stro",
+   "desc": "Build a finished, polished kart racer in Roblox Studio via Roblox MCP. Create cohesive, detailed <details> <summary><strong>Prompt</stro",
    "featured": ""
   },
   {
-   "title": "13. [Asked GPT-6 Astra to build The City Above in Three.js.](details/asked-gpt-6-astra-to-build-the-city-above-in-three-js-536826.md)",
+   "title": "Asked GPT-6 Astra to build The City Above in Three.js",
    "x": "https://x.com/pankajkumar_dev/status/2096795601828536826",
    "owner": "pankajkumar_dev",
    "date": "",
@@ -990,11 +851,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "Asked GPT-6 Astra to build The City Above in Three.js. <details> <summary><strong>Prompt</strong> — Asked GPT-6 Astra to build The City Above in Three.js.</summary> ~~~~text Asked GPT",
+   "desc": "Asked GPT-6 Astra to build The City Above in Three.js. <details> <summary><strong>Prompt</strong> — Asked GPT-6 Astra to build The City Above in Three.js.</summary> ~~~~text Asked GPT",
    "featured": ""
   },
   {
-   "title": "14. [ASTRA WRITES THE GAME. HIGGSFIELD DRESSES IT. YOU JUST PLAY.](details/astra-writes-the-game-higgsfield-dresses-it-you-just-play-929938.md)",
+   "title": "ASTRA WRITES THE GAME. HIGGSFIELD DRESSES IT. YOU JUST PLAY",
    "x": "https://x.com/rimtoln/status/2096937327645929938",
    "owner": "rimtoln",
    "date": "",
@@ -1006,11 +867,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "ASTRA WRITES THE GAME. HIGGSFIELD DRESSES IT. YOU JUST PLAY. <details> <summary><strong>Prompt</strong> — higgsfield x gpt-6 astra turns one prompt into a 3d game</summary> ~~~~text",
+   "desc": "ASTRA WRITES THE GAME. HIGGSFIELD DRESSES IT. YOU JUST PLAY. <details> <summary><strong>Prompt</strong> — higgsfield x gpt-6 astra turns one prompt into a 3d game</summary> ~~~~text",
    "featured": ""
   },
   {
-   "title": "15. [Build a new 3D city scene for me. I want several type of buildings (diff heights) and cars there](details/build-a-new-3d-city-scene-for-me-i-want",
+   "title": "Build a new 3D city scene for me. I want several type of buildings dif",
    "x": "https://x.com/AndrewWalko/status/2095987508475834641",
    "owner": "AndrewWalko",
    "date": "",
@@ -1022,11 +883,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "Build a new 3D city scene for me. I want several type of buildings (diff heights) and cars there <details> <summary><strong>Prompt</strong> — Build",
+   "desc": "Build a new 3D city scene for me. I want several type of buildings (diff heights) and cars there <details> <summary><strong>Prompt</strong> — Build",
    "featured": ""
   },
   {
-   "title": "16. [Create a visually spectacular, highly polished 3D Sonic the Hedgehog vertical slice in Godot. Do](details/create-a-visually-spectacular-highly-po",
+   "title": "Create a visually spectacular, highly polished 3D Sonic the Hedgehog v",
    "x": "https://x.com/AiBattle_/status/2096056285896536086",
    "owner": "AiBattle_",
    "date": "",
@@ -1038,11 +899,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "Create a visually spectacular, highly polished 3D Sonic the Hedgehog vertical slice in Godot. Do <details> <summary><str",
+   "desc": "Create a visually spectacular, highly polished 3D Sonic the Hedgehog vertical slice in Godot. Do <details> <summary><str",
    "featured": ""
   },
   {
-   "title": "17. [我让 GPT-6 Astra 做了个游戏，然后让它自己玩、自己录屏，再剪一段开发实录。](details/gpt-6-astra-796943.md)",
+   "title": "我让 GPT-6 Astra 做了个游戏，然后让它自己玩、自己录屏，再剪一段开发实录。",
    "x": "https://x.com/Nin19536/status/2097163153276796943",
    "owner": "Nin19536",
    "date": "",
@@ -1054,11 +915,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "我让 GPT-6 Astra 做了个游戏，然后让它自己玩、自己录屏，再剪一段开发实录。 <details> <summary><strong>Prompt</strong> — 我让 GPT-6 Astra 做了个游戏，然后让它自己玩、自己录屏，再剪一段开发实录。</summary> ~~~~text 我让 GPT-6 Astra 做了个游戏，然后让它自己玩、自己录屏，再剪一段开发实录。 ~~~~ </details> **Model:** GPT-6 Astra · **Engin",
+   "desc": "我让 GPT-6 Astra 做了个游戏，然后让它自己玩、自己录屏，再剪一段开发实录。 <details> <summary><strong>Prompt</strong> — 我让 GPT-6 Astra 做了个游戏，然后让它自己玩、自己录屏，再剪一段开发实录。</summary> ~~~~text 我让 GPT-6 Astra 做了个游戏，然后让它自己玩、自己录屏，再剪一段开发实录。 ~~~~ </details> **Model:** GPT-6 Astra · **Engin",
    "featured": "做→自玩→自录→自剪，全自动内容管线"
   },
   {
-   "title": "18. [GPT-6 Astra is truly insane](details/gpt-6-astra-is-truly-insane-608401.md)",
+   "title": "GPT-6 Astra is truly insane",
    "x": "https://x.com/jaykhan/status/2096775247328608401",
    "owner": "jaykhan",
    "date": "",
@@ -1070,11 +931,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "GPT-6 Astra is truly insane <details> <summary><strong>Prompt</strong> — It one-shot a playable COD game on a small budget:</summary> ~~~~text It one-shot a playable COD game on a small budget: ~~~~ </details> **Model:** GPT-6 Astra · **Engine:*",
+   "desc": "GPT-6 Astra is truly insane <details> <summary><strong>Prompt</strong> — It one-shot a playable COD game on a small budget:</summary> ~~~~text It one-shot a playable COD game on a small budget: ~~~~ </details> **Model:** GPT-6 Astra · **Engine:*",
    "featured": ""
   },
   {
-   "title": "19. [Asked GPT-6 Astra to recreate the Titanic’s final night](details/asked-gpt-6-astra-to-recreate-the-titanic-s-final-night-290438.md)",
+   "title": "Asked GPT-6 Astra to recreate the Titanic’s final night",
    "x": "https://x.com/choblin29/status/2096490252865290438",
    "owner": "choblin29",
    "date": "",
@@ -1086,11 +947,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "Asked GPT-6 Astra to recreate the Titanic’s final night <details> <summary><strong>Prompt</strong> — Asked GPT-6 Astra to recreate the Titanic’s final night It gave me exact rebuilt in br",
+   "desc": "Asked GPT-6 Astra to recreate the Titanic’s final night <details> <summary><strong>Prompt</strong> — Asked GPT-6 Astra to recreate the Titanic’s final night It gave me exact rebuilt in br",
    "featured": ""
   },
   {
-   "title": "20. [Gave GPT-6 Astra a watch photo. It built this in Blender.](details/gave-gpt-6-astra-a-watch-photo-it-built-this-in-blender-997618.md)",
+   "title": "Gave GPT-6 Astra a watch photo. It built this in Blender",
    "x": "https://x.com/Golfrrr69/status/2096670690912997618",
    "owner": "Golfrrr69",
    "date": "",
@@ -1102,11 +963,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "Gave GPT-6 Astra a watch photo. It built this in Blender. <details> <summary><strong>Prompt</strong> — Gave GPT-6 Astra a watch photo. It built this in Blender.</summary> ~~~~text Gave G",
+   "desc": "Gave GPT-6 Astra a watch photo. It built this in Blender. <details> <summary><strong>Prompt</strong> — Gave GPT-6 Astra a watch photo. It built this in Blender.</summary> ~~~~text Gave G",
    "featured": ""
   },
   {
-   "title": "21. [GPT-6 Astra + Higgsfield + Blender + Cinema 4D = a new era for product visualization.](details/gpt-6-astra-higgsfield-blender-cinema-4d-a-new-era",
+   "title": "GPT-6 Astra + Higgsfield + Blender + Cinema 4D = a new era for product",
    "x": "https://x.com/XenStudiosUK/status/2097064044146397560",
    "owner": "XenStudiosUK",
    "date": "",
@@ -1118,11 +979,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "GPT-6 Astra + Higgsfield + Blender + Cinema 4D = a new era for product visualization. <details> <summary><strong>Prompt</strong> — Starting from a f",
+   "desc": "GPT-6 Astra + Higgsfield + Blender + Cinema 4D = a new era for product visualization. <details> <summary><strong>Prompt</strong> — Starting from a f",
    "featured": ""
   },
   {
-   "title": "22. [I asked GPT 6 Astra to model the starting village from Xenogears, from my phone using remote](details/i-asked-gpt-6-astra-to-model-the-starting-v",
+   "title": "I asked GPT 6 Astra to model the starting village from Xenogears, from",
    "x": "https://x.com/JeffDraws/status/2096380719572627798",
    "owner": "JeffDraws",
    "date": "",
@@ -1134,11 +995,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "I asked GPT 6 Astra to model the starting village from Xenogears, from my phone using remote <details> <summary><strong>Prompt</strong> — I as",
+   "desc": "I asked GPT 6 Astra to model the starting village from Xenogears, from my phone using remote <details> <summary><strong>Prompt</strong> — I as",
    "featured": ""
   },
   {
-   "title": "25. [everyone is using GPT-6 Astra to make games... i had it build me a robot prototyper](details/everyone-is-using-gpt-6-astra-to-make-games-i-had-it",
+   "title": "everyone is using GPT-6 Astra to make games... i had it build me a rob",
    "x": "https://x.com/DeRonin_/status/2096567918859354155",
    "owner": "DeRonin_",
    "date": "",
@@ -1150,11 +1011,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "everyone is using GPT-6 Astra to make games... i had it build me a robot prototyper <details> <summary><strong>Prompt</strong> — prototype me a full Microduck</sum",
+   "desc": "everyone is using GPT-6 Astra to make games... i had it build me a robot prototyper <details> <summary><strong>Prompt</strong> — prototype me a full Microduck</sum",
    "featured": ""
   },
   {
-   "title": "26. [GPT-6 Astra 连续运行 8h 的成果（还在继续制作影片中……](details/gpt-6-astra-8h-093076.md)",
+   "title": "GPT-6 Astra 连续运行 8h 的成果（还在继续制作影片中……",
    "x": "https://x.com/ZHO_ZHO_ZHO/status/2096195128927093076",
    "owner": "ZHO_ZHO_ZHO",
    "date": "",
@@ -1166,11 +1027,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "GPT-6 Astra 连续运行 8h 的成果（还在继续制作影片中…… <details> <summary><strong>Prompt</strong> — 见原贴 成果： 1）Rhino 建筑模型 2）Grasshopper 帆面分格 3）离线空间漫游 4）IFC4 技术模型 5）14张 A1 技术图 6）一套 CAD 图纸 7）2张 A1 建筑分析展板 8）一段3min建筑影响预演 9）一段2min一建筑为背景的悬疑短片 10）点云修正 11）建筑资料研究 12）总体任务书 13",
+   "desc": "GPT-6 Astra 连续运行 8h 的成果（还在继续制作影片中…… <details> <summary><strong>Prompt</strong> — 见原贴 成果： 1）Rhino 建筑模型 2）Grasshopper 帆面分格 3）离线空间漫游 4）IFC4 技术模型 5）14张 A1 技术图 6）一套 CAD 图纸 7）2张 A1 建筑分析展板 8）一段3min建筑影响预演 9）一段2min一建筑为背景的悬疑短片 10）点云修正 11）建筑资料研究 12）总体任务书 13",
    "featured": ""
   },
   {
-   "title": "27. [I asked GPT-6 Astra to build a complete CAD/CAM/MES system so our clients can quickly design and](details/i-asked-gpt-6-astra-to-build-a-complete",
+   "title": "I asked GPT-6 Astra to build a complete CAD/CAM/MES system so our clie",
    "x": "https://x.com/alfonsotames/status/2096698742439112766",
    "owner": "alfonsotames",
    "date": "",
@@ -1182,11 +1043,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "I asked GPT-6 Astra to build a complete CAD/CAM/MES system so our clients can quickly design and <details> <summary><strong>Prompt</strong> — I ask",
+   "desc": "I asked GPT-6 Astra to build a complete CAD/CAM/MES system so our clients can quickly design and <details> <summary><strong>Prompt</strong> — I ask",
    "featured": ""
   },
   {
-   "title": "28. [I asked @openai GPT 6 Astra to create 3d printable model of Cybertruck.](details/i-asked-openai-gpt-6-astra-to-create-3d-printable-model-of-19411",
+   "title": "I asked @openai GPT 6 Astra to create 3d printable model of Cybertruck",
    "x": "https://x.com/sgtpatel/status/2096685771688194118",
    "owner": "sgtpatel",
    "date": "",
@@ -1198,11 +1059,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "I asked @openai GPT 6 Astra to create 3d printable model of Cybertruck. <details> <summary><strong>Prompt</strong> — I asked @openai GPT 6 Astra to create 3d printable mo",
+   "desc": "I asked @openai GPT 6 Astra to create 3d printable model of Cybertruck. <details> <summary><strong>Prompt</strong> — I asked @openai GPT 6 Astra to create 3d printable mo",
    "featured": ""
   },
   {
-   "title": "29. [I had my “touch of AGI” moment yesterday.](details/i-had-my-touch-of-agi-moment-yesterday-216790.md)",
+   "title": "I had my “touch of AGI” moment yesterday",
    "x": "https://x.com/DanielGri/status/2096852983468216790",
    "owner": "DanielGri",
    "date": "",
@@ -1214,11 +1075,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "I had my “touch of AGI” moment yesterday. <details> <summary><strong>Prompt</strong> — I told it to use computer use in Fusion 360.</summary> ~~~~text I told it to use computer use in Fusion 360. ~~~~ </details> **Model",
+   "desc": "I had my “touch of AGI” moment yesterday. <details> <summary><strong>Prompt</strong> — I told it to use computer use in Fusion 360.</summary> ~~~~text I told it to use computer use in Fusion 360. ~~~~ </details> **Model",
    "featured": ""
   },
   {
-   "title": "31. [グラディウス1のステージ1を、R-TYPEの機体で遊べるゲームを作ってください。](details/1-1-r-type-541488.md)",
+   "title": "グラディウス1のステージ1を、R-TYPEの機体で遊べるゲームを作ってください。",
    "x": "https://x.com/die2000/status/2096101876735541488",
    "owner": "die2000",
    "date": "",
@@ -1230,11 +1091,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "グラディウス1のステージ1を、R-TYPEの機体で遊べるゲームを作ってください。 <details> <summary><strong>Prompt</strong> — グラディウス1のステージ1を、R-TYPEの機体で遊べるゲームを作ってください。</summary> ~~~~text グラディウス1のステージ1を、R-TYPEの機体で遊べるゲームを作ってください。 ~~~~ </details> **Model:** GPT-6 Astra · **Engine:** Not specif",
+   "desc": "グラディウス1のステージ1を、R-TYPEの機体で遊べるゲームを作ってください。 <details> <summary><strong>Prompt</strong> — グラディウス1のステージ1を、R-TYPEの機体で遊べるゲームを作ってください。</summary> ~~~~text グラディウス1のステージ1を、R-TYPEの機体で遊べるゲームを作ってください。 ~~~~ </details> **Model:** GPT-6 Astra · **Engine:** Not specif",
    "featured": ""
   },
   {
-   "title": "33. [A trick that improved my 3D results with GPT 6 Astra a lot](details/a-trick-that-improved-my-3d-results-with-gpt-6-astra-a-373286.md)",
+   "title": "A trick that improved my 3D results with GPT 6 Astra a lot",
    "x": "https://x.com/tiagomanel/status/2096920387896373286",
    "owner": "tiagomanel",
    "date": "",
@@ -1246,11 +1107,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "A trick that improved my 3D results with GPT 6 Astra a lot <details> <summary><strong>Prompt</strong> — For complex elements like statues, I asked it to use Image Gen skill first to cre",
+   "desc": "A trick that improved my 3D results with GPT 6 Astra a lot <details> <summary><strong>Prompt</strong> — For complex elements like statues, I asked it to use Image Gen skill first to cre",
    "featured": ""
   },
   {
-   "title": "34. [AGI is here.](details/agi-is-here-381458.md)",
+   "title": "AGI is here",
    "x": "https://x.com/KushDaddyOG101/status/2097076033564381458",
    "owner": "KushDaddyOG101",
    "date": "",
@@ -1262,11 +1123,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "AGI is here. <details> <summary><strong>Prompt</strong> — I was trying to teach my son about physics and @SpaceX, so I asked @OpenAI’s GPT-6 Astra to make a demonstration. We ended up with an addictive Super Heavy catch game built around…</summary> ~~~~text I was tryin",
+   "desc": "AGI is here. <details> <summary><strong>Prompt</strong> — I was trying to teach my son about physics and @SpaceX, so I asked @OpenAI’s GPT-6 Astra to make a demonstration. We ended up with an addictive Super Heavy catch game built around…</summary> ~~~~text I was tryin",
    "featured": ""
   },
   {
-   "title": "35. [【AIアニメ制作共有①】](details/ai-006358.md)",
+   "title": "【AIアニメ制作共有①】",
    "x": "https://x.com/MiraMusic_AI/status/2096441679847006358",
    "owner": "MiraMusic_AI",
    "date": "",
@@ -1278,11 +1139,11 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "【AIアニメ制作共有①】 <details> <summary><strong>Prompt</strong> — GPT-6 Astraとblenderで街を作ってみた！</summary> ~~~~text GPT-6 Astraとblenderで街を作ってみた！ ~~~~ </details> **Model:** GPT-6 Astra · **Engine:** Not specified in source · **Prompt fidelity:** Source-stated **Source:** [MiraMusic](https:/",
+   "desc": "【AIアニメ制作共有①】 <details> <summary><strong>Prompt</strong> — GPT-6 Astraとblenderで街を作ってみた！</summary> ~~~~text GPT-6 Astraとblenderで街を作ってみた！ ~~~~ </details> **Model:** GPT-6 Astra · **Engine:** Not specified in source · **Prompt fidelity:** Source-stated **Source:** [MiraMusic](https:/",
    "featured": ""
   },
   {
-   "title": "36. [Asked GPT-6 Astra to build an interactive 3D visualization of a V8 engine.](details/asked-gpt-6-astra-to-build-an-interactive-3d-visualization-of",
+   "title": "Asked GPT-6 Astra to build an interactive 3D visualization of a V8 eng",
    "x": "https://x.com/HeyDhruvv/status/2096441229341028703",
    "owner": "HeyDhruvv",
    "date": "",
@@ -1294,39 +1155,7 @@
     "BeatAPI_awesome-3d-prompts"
    ],
    "prompt": "",
-   "desc_clean": "Asked GPT-6 Astra to build an interactive 3D visualization of a V8 engine. <details> <summary><strong>Prompt</strong> — Asked GPT-6 Astra to build an interactiv",
-   "featured": ""
-  },
-  {
-   "title": "Short Briefs That Still Worked",
-   "x": "https://x.com/guuchacha149182/status/2096813471463882947",
-   "owner": "guuchacha149182",
-   "date": "",
-   "cat": "arcade-action",
-   "slug": "short-briefs-that-still-worked",
-   "has_prompt": false,
-   "demos": [],
-   "sources": [
-    "LuxRealGrowth_awesome-astra-video-prompts"
-   ],
-   "prompt": "根据最近的 changelog 比较亮眼的功能做个视频。",
-   "desc_clean": "> Minimal briefs. Useful as a baseline for how little you can get away with — not as contracts. ``` 游戏做好了，用 remotion 做个好看的 CM ``` **Author:** かな (@guuchacha149182) **Source:** x.com 🎬 **Watch the full video →** ``` 根据最近的 changelog 比较亮眼的功能做个视频。 ``` **Author:** @leon7hao **Source:** [x.com](https://x.com/leon7hao/stat",
-   "featured": ""
-  },
-  {
-   "title": "Known but Unpublished",
-   "x": "https://x.com/paojiaofty/status/2096830622341976467",
-   "owner": "paojiaofty",
-   "date": "",
-   "cat": "multiplayer-battle",
-   "slug": "known-but-unpublished",
-   "has_prompt": false,
-   "demos": [],
-   "sources": [
-    "LuxRealGrowth_awesome-astra-video-prompts"
-   ],
-   "prompt": "",
-   "desc_clean": "> Confirmed to exist, no public primary source. **Listed, never reconstructed.** What Who Status --- --- --- Physics / soft-body motion skill — dropping Remotion/HyperFrames fade-in cards for physical feel and soft-body forces, 4K60 @paojiaofty announced, skill unreleased Higgsfield + Blender previs + Seedance 2.5 sword-fight pipeline secondhand press reporting only not a prima",
+   "desc": "Asked GPT-6 Astra to build an interactive 3D visualization of a V8 engine. <details> <summary><strong>Prompt</strong> — Asked GPT-6 Astra to build an interactiv",
    "featured": ""
   },
   {
@@ -1342,7 +1171,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A car-soccer prototype showing kickoffs, boosts and goals inside a detailed stadium. **Creator:** [am.will](<https://x.com/LLMJunky>) · **Tools / format:** Car soccer, Game prototype, Recorded gameplay The creator confirms this is their own Astra benchmark inspired by Rocket League. They describe remaining ball and car physics quirks and say it was not built for public distribu",
+   "desc": "A car-soccer prototype showing kickoffs, boosts and goals inside a detailed stadium. **Creator:** [am.will](<https://x.com/LLMJunky>) · **Tools / format:** Car soccer, Game prototype, Recorded gameplay The creator confirms this is their own Astra benchmark inspired by Rocket League. They describe remaining ball and car physics quirks and say it was not built for public distribu",
    "featured": ""
   },
   {
@@ -1358,7 +1187,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A recorded demonstration of Age of Empires IV running on Apple Silicon after Astra-assisted optimization. **Creator:** [Marc Ibrahim](<https://x.com/marc_ibrahim>) · **Tools / format:** Apple Silicon, Game optimization, Age of Empires IV The creator credits Astra with improving an existing game's performance on Apple Silicon, reporting 70–150 fps versus roughly 8 fps with Cross",
+   "desc": "A recorded demonstration of Age of Empires IV running on Apple Silicon after Astra-assisted optimization. **Creator:** [Marc Ibrahim](<https://x.com/marc_ibrahim>) · **Tools / format:** Apple Silicon, Game optimization, Age of Empires IV The creator credits Astra with improving an existing game's performance on Apple Silicon, reporting 70–150 fps versus roughly 8 fps with Cross",
    "featured": ""
   },
   {
@@ -1374,7 +1203,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A browser robot duel with dashes, homing attacks and laser-blade combat. **Creator:** [ハヤシモン｜AI × 個人開発](<https://x.com/hayashimon1>) · **Tools / format:** Browser game The creator describes an iterative Astra build, refining the robot movements through feedback. A browser demo is linked in the original post. [Original post](<https://x.com/hayashimon1/status/2096255665778069957>",
+   "desc": "A browser robot duel with dashes, homing attacks and laser-blade combat. **Creator:** [ハヤシモン｜AI × 個人開発](<https://x.com/hayashimon1>) · **Tools / format:** Browser game The creator describes an iterative Astra build, refining the robot movements through feedback. A browser demo is linked in the original post. [Original post](<https://x.com/hayashimon1/status/2096255665778069957>",
    "featured": ""
   },
   {
@@ -1390,7 +1219,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A weekend experiment reimagines Contra as a playable photorealistic side-scrolling game. **Creator:** [Anish Acharya](<https://x.com/illscience>) · **Tools / format:** Playable game, Photorealistic, Side scroller Anish Acharya used Astra to build the game experiment over a weekend and shared a playable deployment in an author reply. It is a prototype demonstration, not an offic",
+   "desc": "A weekend experiment reimagines Contra as a playable photorealistic side-scrolling game. **Creator:** [Anish Acharya](<https://x.com/illscience>) · **Tools / format:** Playable game, Photorealistic, Side scroller Anish Acharya used Astra to build the game experiment over a weekend and shared a playable deployment in an author reply. It is a prototype demonstration, not an offic",
    "featured": ""
   },
   {
@@ -1406,7 +1235,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A dystopian robot game scene with rain, warm lights, detailed streets and procedural birds. **Creator:** [Anshu](<https://x.com/anshuc>) · **Tools / format:** Three.js, Blender assets, Image generation The creator describes iterating with Astra, Blender, Three.js and image generation for visual targets and textures. They corrected glitches manually and say optimization and test",
+   "desc": "A dystopian robot game scene with rain, warm lights, detailed streets and procedural birds. **Creator:** [Anshu](<https://x.com/anshuc>) · **Tools / format:** Three.js, Blender assets, Image generation The creator describes iterating with Astra, Blender, Three.js and image generation for visual targets and textures. They corrected glitches manually and say optimization and test",
    "featured": ""
   },
   {
@@ -1422,7 +1251,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A glossy jelly character you can stretch, throw and bounce around a wooden tabletop, with live play and source code. **Creator:** [Scott](<https://x.com/scottstts>) · **Tools / format:** Three.js, WebGPU, Physics toy The creator attributes the Three.js game to Astra. The linked repository documents movement, stretching and playground activities. The live page requires WebGPU; g",
+   "desc": "A glossy jelly character you can stretch, throw and bounce around a wooden tabletop, with live play and source code. **Creator:** [Scott](<https://x.com/scottstts>) · **Tools / format:** Three.js, WebGPU, Physics toy The creator attributes the Three.js game to Astra. The linked repository documents movement, stretching and playground activities. The live page requires WebGPU; g",
    "featured": ""
   },
   {
@@ -1438,7 +1267,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A browser shooter with living and undead modes, solo play and author-reported online multiplayer. **Creator:** [Rishi](<https://x.com/0xRishi>) · **Tools / format:** Three.js, Meshy, ElevenLabs, Multiplayer The creator used Astra Ultra with Three.js, Meshy and ElevenLabs to expand Modern Claudefare, an earlier Opus 5 project. Multiplayer and controller support are author-report",
+   "desc": "A browser shooter with living and undead modes, solo play and author-reported online multiplayer. **Creator:** [Rishi](<https://x.com/0xRishi>) · **Tools / format:** Three.js, Meshy, ElevenLabs, Multiplayer The creator used Astra Ultra with Three.js, Meshy and ElevenLabs to expand Modern Claudefare, an earlier Opus 5 project. Multiplayer and controller support are author-report",
    "featured": ""
   },
   {
@@ -1454,7 +1283,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A Halo-inspired multiplayer shooter demonstrated as an Astra and Tesana game-maker project. **Creator:** [Halfdan](<https://x.com/VikiingAI>) · **Tools / format:** Tesana, FPS, Multiplayer The creator credits Astra together with Tesana and describes a one-prompt 10v10 FPS prototype. The post provides a video; multiplayer capacity and gameplay have not been independently tested.",
+   "desc": "A Halo-inspired multiplayer shooter demonstrated as an Astra and Tesana game-maker project. **Creator:** [Halfdan](<https://x.com/VikiingAI>) · **Tools / format:** Tesana, FPS, Multiplayer The creator credits Astra together with Tesana and describes a one-prompt 10v10 FPS prototype. The post provides a video; multiplayer capacity and gameplay have not been independently tested.",
    "featured": ""
   },
   {
@@ -1470,7 +1299,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A small PvP-style arena that can be played solo or with a friend. **Creator:** [JUMPERZ](<https://x.com/jumperz>) · **Tools / format:** Blender, Multiplayer The author describes an early Astra + Blender prototype made in about four hours. It is explicitly unfinished; gameplay and multiplayer availability may change. [Original post](<https://x.com/jumperz/status/2096600055301984",
+   "desc": "A small PvP-style arena that can be played solo or with a friend. **Creator:** [JUMPERZ](<https://x.com/jumperz>) · **Tools / format:** Blender, Multiplayer The author describes an early Astra + Blender prototype made in about four hours. It is explicitly unfinished; gameplay and multiplayer availability may change. [Original post](<https://x.com/jumperz/status/2096600055301984",
    "featured": ""
   },
   {
@@ -1486,7 +1315,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A painter-themed browser shooter set in Van Gogh's town, with bot teammates and rivals. **Creator:** [Peter Gostev](<https://x.com/petergostev>) · **Tools / format:** Three.js, Blender The author credits Astra and Blender for the game. The current source describes single-player matches with bots; online multiplayer is not implemented. [Original post](<https://x.com/petergostev/",
+   "desc": "A painter-themed browser shooter set in Van Gogh's town, with bot teammates and rivals. **Creator:** [Peter Gostev](<https://x.com/petergostev>) · **Tools / format:** Three.js, Blender The author credits Astra and Blender for the game. The current source describes single-player matches with bots; online multiplayer is not implemented. [Original post](<https://x.com/petergostev/",
    "featured": ""
   },
   {
@@ -1502,7 +1331,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "An iPhone arena fighter combines touch controls, 109 animation clips and optimized 3D assets. **Creator:** [Higgsfield AI](<https://x.com/higgsfield_ai>) · **Tools / format:** GPT Image 2.5, Unity, iPhone game Higgsfield says Astra built the Unity game while GPT Image 2.5 generated its images. The four-hour timeline and the creator's prior experience are reported by the promoti",
+   "desc": "An iPhone arena fighter combines touch controls, 109 animation clips and optimized 3D assets. **Creator:** [Higgsfield AI](<https://x.com/higgsfield_ai>) · **Tools / format:** GPT Image 2.5, Unity, iPhone game Higgsfield says Astra built the Unity game while GPT Image 2.5 generated its images. The four-hour timeline and the creator's prior experience are reported by the promoti",
    "featured": ""
   },
   {
@@ -1518,7 +1347,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A sailing game with colorful ocean lighting, moving waves and stylized or realistic rendering modes. **Creator:** [Thomas Ricouard](<https://x.com/Dimillian>) · **Tools / format:** Sailing, Blender assets, Water rendering The creator credits Astra with Sunwake and says it used Blender to refine the boat. The post shows gameplay; water physics and a standalone playable release h",
+   "desc": "A sailing game with colorful ocean lighting, moving waves and stylized or realistic rendering modes. **Creator:** [Thomas Ricouard](<https://x.com/Dimillian>) · **Tools / format:** Sailing, Blender assets, Water rendering The creator credits Astra with Sunwake and says it used Blender to refine the boat. The post shows gameplay; water physics and a standalone playable release h",
    "featured": ""
   },
   {
@@ -1534,7 +1363,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A classic board game became an Unreal Engine scene with 3D animation and sound effects. **Creator:** [Higgsfield AI](<https://x.com/higgsfield_ai>) · **Tools / format:** GPT Image 2.5, Unreal Engine, Blender Higgsfield says Astra recreated the game in Unreal Engine, while GPT Image 2.5 supplied assets and Blender handled animation. This is a product showcase and no playable bui",
+   "desc": "A classic board game became an Unreal Engine scene with 3D animation and sound effects. **Creator:** [Higgsfield AI](<https://x.com/higgsfield_ai>) · **Tools / format:** GPT Image 2.5, Unreal Engine, Blender Higgsfield says Astra recreated the game in Unreal Engine, while GPT Image 2.5 supplied assets and Blender handled animation. This is a product showcase and no playable bui",
    "featured": ""
   },
   {
@@ -1550,7 +1379,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A short fighting-game animation test combines GPT Image 2.5 artwork with Astra Pro. **Creator:** [YuK1](<https://x.com/YuK1_Game>) · **Tools / format:** GPT Image 2.5, 2D animation, Fighting game YuK1 shares a direct first-pass test made with GPT Image 2.5 and Astra Pro, while noting that the unrefined output still needs improvement. The post does not provide a playable game or",
+   "desc": "A short fighting-game animation test combines GPT Image 2.5 artwork with Astra Pro. **Creator:** [YuK1](<https://x.com/YuK1_Game>) · **Tools / format:** GPT Image 2.5, 2D animation, Fighting game YuK1 shares a direct first-pass test made with GPT Image 2.5 and Astra Pro, while noting that the unrefined output still needs improvement. The post does not provide a playable game or",
    "featured": ""
   },
   {
@@ -1566,7 +1395,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A compact Dream Loop experiment recreates the feel of Metal Slug with Astra. **Creator:** [ashen](<https://x.com/ashen_one>) · **Tools / format:** Dream Loop, Game remake, Fan project The creator describes an Astra-made remake completed in about an hour and shares the resulting gameplay video. It is an unofficial fan experiment; the timing and token figures are author-reported.",
+   "desc": "A compact Dream Loop experiment recreates the feel of Metal Slug with Astra. **Creator:** [ashen](<https://x.com/ashen_one>) · **Tools / format:** Dream Loop, Game remake, Fan project The creator describes an Astra-made remake completed in about an hour and shares the resulting gameplay video. It is an unofficial fan experiment; the timing and token figures are author-reported.",
    "featured": ""
   },
   {
@@ -1582,7 +1411,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A first-person browser rink-management sim with ice resurfacing, bookings and concession tasks. **Creator:** [Jake Boyles](<https://x.com/JakeBoyles>) · **Tools / format:** Three.js, Simulation, Ice rink The creator credits Astra and Three.js, describing a persistent ice-wear grid that also drives reflections. Desktop, mobile and save behavior are author-reported and have not b",
+   "desc": "A first-person browser rink-management sim with ice resurfacing, bookings and concession tasks. **Creator:** [Jake Boyles](<https://x.com/JakeBoyles>) · **Tools / format:** Three.js, Simulation, Ice rink The creator credits Astra and Three.js, describing a persistent ice-wear grid that also drives reflections. Desktop, mobile and save behavior are author-reported and have not b",
    "featured": ""
   },
   {
@@ -1598,7 +1427,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A Three.js playground for firing a rocket launcher into a room made of bubble wrap. **Creator:** [FinkTheArtist](<https://x.com/crtvTeknologist>) · **Tools / format:** Three.js, Destruction, Open source The creator credits Astra and Three.js and shares a live demo, with source code in an author reply. Gameplay and physics have not been independently tested. [Original post](<htt",
+   "desc": "A Three.js playground for firing a rocket launcher into a room made of bubble wrap. **Creator:** [FinkTheArtist](<https://x.com/crtvTeknologist>) · **Tools / format:** Three.js, Destruction, Open source The creator credits Astra and Three.js and shares a live demo, with source code in an author reply. Gameplay and physics have not been independently tested. [Original post](<htt",
    "featured": ""
   },
   {
@@ -1614,7 +1443,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A Blender and Godot prototype turns metal-cube machining into a factory-building game loop. **Creator:** [gin0](<https://x.com/chod3s>) · **Tools / format:** Godot, Blender, Factory game The creator says Astra built the prototype, machines and guided playable demo over a weekend, while ElevenLabs supplied music and sounds. The post also notes unfinished environments and UI limi",
+   "desc": "A Blender and Godot prototype turns metal-cube machining into a factory-building game loop. **Creator:** [gin0](<https://x.com/chod3s>) · **Tools / format:** Godot, Blender, Factory game The creator says Astra built the prototype, machines and guided playable demo over a weekend, while ElevenLabs supplied music and sounds. The post also notes unfinished environments and UI limi",
    "featured": ""
   },
   {
@@ -1630,7 +1459,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A modern house modeled in Blender and brought into Unreal Engine 5 as a walkable architectural scene. **Creator:** [Thomas Ricouard](<https://x.com/Dimillian>) · **Tools / format:** Blender, Unreal Engine 5, Architecture The creator presents an Astra-assisted house workflow from Blender to Unreal Engine 5 for their launch blog. This is a recorded walkthrough; no standalone play",
+   "desc": "A modern house modeled in Blender and brought into Unreal Engine 5 as a walkable architectural scene. **Creator:** [Thomas Ricouard](<https://x.com/Dimillian>) · **Tools / format:** Blender, Unreal Engine 5, Architecture The creator presents an Astra-assisted house workflow from Blender to Unreal Engine 5 for their launch blog. This is a recorded walkthrough; no standalone play",
    "featured": ""
   },
   {
@@ -1646,7 +1475,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A static bookshelf photo becomes an interactive scene that challenges viewers to find the books. **Creator:** [Rohan Nuttall](<https://x.com/rohancalum>) · **Tools / format:** Interactive photo, Visual search, Web prototype Rohan Nuttall asked Astra to make a photo interactive and turn finding its books into the activity shown in the clip. This is a recorded demonstration; the ",
+   "desc": "A static bookshelf photo becomes an interactive scene that challenges viewers to find the books. **Creator:** [Rohan Nuttall](<https://x.com/rohancalum>) · **Tools / format:** Interactive photo, Visual search, Web prototype Rohan Nuttall asked Astra to make a photo interactive and turn finding its books into the activity shown in the clip. This is a recorded demonstration; the ",
    "featured": ""
   },
   {
@@ -1662,7 +1491,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "An interactive ankle atlas visualizes bones, ligaments, tendons, motion axes, and live movement readouts. **Creator:** [Emanuel AOF](<https://x.com/Emanuel_Andre7>) · **Tools / format:** Medical visualization, Interactive 3D, Education Emanuel AOF asked Astra to help explain ankle pain and received the 3D atlas shown in the clip. It is an educational visualization from one sess",
+   "desc": "An interactive ankle atlas visualizes bones, ligaments, tendons, motion axes, and live movement readouts. **Creator:** [Emanuel AOF](<https://x.com/Emanuel_Andre7>) · **Tools / format:** Medical visualization, Interactive 3D, Education Emanuel AOF asked Astra to help explain ankle pain and received the 3D atlas shown in the clip. It is an educational visualization from one sess",
    "featured": ""
   },
   {
@@ -1678,7 +1507,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A memorable basketball tip-in is reconstructed as a 3D scene viewable from different arena seats. **Creator:** [brian flynn](<https://x.com/Flynnjamm>) · **Tools / format:** Sports replay, Interactive 3D, Spatial reconstruction Brian Flynn asked Astra to study game clips and recreate OG Anunoby's tip-in with selectable viewpoints around the arena. The post shows a recorded demo",
+   "desc": "A memorable basketball tip-in is reconstructed as a 3D scene viewable from different arena seats. **Creator:** [brian flynn](<https://x.com/Flynnjamm>) · **Tools / format:** Sports replay, Interactive 3D, Spatial reconstruction Brian Flynn asked Astra to study game clips and recreate OG Anunoby's tip-in with selectable viewpoints around the arena. The post shows a recorded demo",
    "featured": ""
   },
   {
@@ -1694,7 +1523,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A live Three.js simulation lays out a functional aircraft manufacturing plant in Texas. **Creator:** [Konstantin Saifoulline](<https://x.com/konstantinsaifo>) · **Tools / format:** Manufacturing, Three.js, 3D simulation Konstantin Saifoulline asked Astra to research aircraft manufacturing, consult Airsup lean-production material, design the plant, and build and test the simulat",
+   "desc": "A live Three.js simulation lays out a functional aircraft manufacturing plant in Texas. **Creator:** [Konstantin Saifoulline](<https://x.com/konstantinsaifo>) · **Tools / format:** Manufacturing, Three.js, 3D simulation Konstantin Saifoulline asked Astra to research aircraft manufacturing, consult Airsup lean-production material, design the plant, and build and test the simulat",
    "featured": ""
   },
   {
@@ -1710,7 +1539,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "Astra and Three.js turn a childhood model-railroad idea into an interactive browser experience. **Creator:** [Probably Nick](<https://x.com/nickfromlater>) · **Tools / format:** Interactive 3D, Three.js, Model railroad Probably Nick built the railroad with Astra and Three.js, shared a video, and linked a public playable deployment. The linked site is the author's prototype rath",
+   "desc": "Astra and Three.js turn a childhood model-railroad idea into an interactive browser experience. **Creator:** [Probably Nick](<https://x.com/nickfromlater>) · **Tools / format:** Interactive 3D, Three.js, Model railroad Probably Nick built the railroad with Astra and Three.js, shared a video, and linked a public playable deployment. The linked site is the author's prototype rath",
    "featured": ""
   },
   {
@@ -1726,7 +1555,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A Three.js ship-in-a-bottle scene with waves, gulls, a small harbor and coral reefs. **Creator:** [Derya Unutmaz, MD](<https://x.com/DeryaTR_>) · **Tools / format:** Three.js, Voxel art The creator credits GPT-6 Astra for the Three.js scene, cinematic video and music. The post provides a video; its physics claims have not been independently validated. [Original post](<https://x",
+   "desc": "A Three.js ship-in-a-bottle scene with waves, gulls, a small harbor and coral reefs. **Creator:** [Derya Unutmaz, MD](<https://x.com/DeryaTR_>) · **Tools / format:** Three.js, Voxel art The creator credits GPT-6 Astra for the Three.js scene, cinematic video and music. The post provides a video; its physics claims have not been independently validated. [Original post](<https://x",
    "featured": ""
   },
   {
@@ -1742,7 +1571,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "An interactive 3D Microduck assembly viewer with 70 selectable parts, locations and descriptions. **Creator:** [yishan](<https://x.com/tspy>) · **Tools / format:** CAD visualization, Assembly guide, Robotics The creator credits Astra for an assembly viewer based on existing Microduck CAD geometry and assemblies. This visualizes an existing robot design; it does not establish th",
+   "desc": "An interactive 3D Microduck assembly viewer with 70 selectable parts, locations and descriptions. **Creator:** [yishan](<https://x.com/tspy>) · **Tools / format:** CAD visualization, Assembly guide, Robotics The creator credits Astra for an assembly viewer based on existing Microduck CAD geometry and assemblies. This visualizes an existing robot design; it does not establish th",
    "featured": ""
   },
   {
@@ -1758,7 +1587,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A stylized 3D tourist map turns the Fort Worth Stockyards into an explorable district guide. **Creator:** [DFW Strategy](<https://x.com/dfwstrategy>) · **Tools / format:** Interactive map, Tourism, 3D web DFW Strategy says Astra built the site's skeleton in one pass, followed by iterative work with references and models to make the result distinctive. The post shows the interac",
+   "desc": "A stylized 3D tourist map turns the Fort Worth Stockyards into an explorable district guide. **Creator:** [DFW Strategy](<https://x.com/dfwstrategy>) · **Tools / format:** Interactive map, Tourism, 3D web DFW Strategy says Astra built the site's skeleton in one pass, followed by iterative work with references and models to make the result distinctive. The post shows the interac",
    "featured": ""
   },
   {
@@ -1774,7 +1603,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A solar-system explorer with a spaceship exterior and an observation lounge overlooking planets. **Creator:** [Weng Siong](<https://x.com/wengsiong22>) · **Tools / format:** React, Three.js, Blender The creator credits Astra with React, Three.js and Blender. Sampled video frames show the solar-system view, ship and lounge. The creator provides a live link; interactive functiona",
+   "desc": "A solar-system explorer with a spaceship exterior and an observation lounge overlooking planets. **Creator:** [Weng Siong](<https://x.com/wengsiong22>) · **Tools / format:** React, Three.js, Blender The creator credits Astra with React, Three.js and Blender. Sampled video frames show the solar-system view, ship and lounge. The creator provides a live link; interactive functiona",
    "featured": ""
   },
   {
@@ -1790,7 +1619,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A Three.js game is recreated in Blender scenes and turned into a trailer. **Creator:** [Meng To](<https://x.com/MengTo>) · **Tools / format:** Three.js, Blender, GPT Image 2 The author describes a multi-tool build: Astra for code, Blender for scene recreation, and GPT Image 2 for image assets. This is a game-and-trailer workflow, not a single video model output. [Original post]",
+   "desc": "A Three.js game is recreated in Blender scenes and turned into a trailer. **Creator:** [Meng To](<https://x.com/MengTo>) · **Tools / format:** Three.js, Blender, GPT Image 2 The author describes a multi-tool build: Astra for code, Blender for scene recreation, and GPT Image 2 for image assets. This is a game-and-trailer workflow, not a single video model output. [Original post]",
    "featured": ""
   },
   {
@@ -1806,39 +1635,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "Hatsune Miku pixel art made in Aseprite, shown in a process recording and an image. **Creator:** [すえまる](<https://x.com/suemaruuuuuuX>) · **Tools / format:** Aseprite, Pixel art, Character art The creator says GPT-6 Astra made the pixel art in Aseprite. Pixel-level precision claims have not been independently checked. This is an art-making example, not a playable game. [Original",
-   "featured": ""
-  },
-  {
-   "title": "11–20：视频、UI、游戏与创作工具",
-   "x": "https://x.com/cat_shark_L1011/status/2096215847438291002",
-   "owner": "cat_shark_L1011",
-   "date": "",
-   "cat": "arcade-action",
-   "slug": "1120视频ui游戏与创作工具",
-   "has_prompt": false,
-   "demos": [],
-   "sources": [
-    "xianyu110_awesome-gpt-6-astra"
-   ],
-   "prompt": "",
-   "desc_clean": "**11. 没有拍摄，没有剪辑，只用一个 prompt** — 公开案例声称用一个提示词生成 30 秒 AI 视频。 - 作者：NΞKO_SHΛRK / @cat_shark_L1011 - 开发资料：X 线程合集第 11 条 - 预览： - **12. GPT-6 Astra 生成 UI 界面** — 展示 Astra 生成多组件用户界面的能力。 - 作者：Marvin Schwaibold / @MSchwaibold - 开发资料：[X 线程合集第 12 条](https://x.com/3three_AI/status",
-   "featured": ""
-  },
-  {
-   "title": "Case breakdowns",
-   "x": "https://x.com/adilinthewild/status/2098247449026715966",
-   "owner": "adilinthewild",
-   "date": "",
-   "cat": "sim-toy",
-   "slug": "case-breakdowns",
-   "has_prompt": false,
-   "demos": [],
-   "sources": [
-    "zlxxlz1026_awesome-gpt-6-astra-casebook"
-   ],
-   "prompt": "",
-   "desc_clean": "Read the available prerequisites and our analysis of goals, constraints, delivery and acceptance checks: - [Formula One modeling in Blender](docs/categories/3d.md#formula-one-blender) - [Astral liquid-glass welcome screen](docs/categories/design.md#astral-liquid-glass) - [Komorebi: River Run](docs/categories/games.md#komorebi-river-run) - [A single-file canyon driving game](doc",
+   "desc": "Hatsune Miku pixel art made in Aseprite, shown in a process recording and an image. **Creator:** [すえまる](<https://x.com/suemaruuuuuuX>) · **Tools / format:** Aseprite, Pixel art, Character art The creator says GPT-6 Astra made the pixel art in Aseprite. Pixel-level precision claims have not been independently checked. This is an art-making example, not a playable game. [Original",
    "featured": ""
   },
   {
@@ -1854,7 +1651,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A small browser game recreating the gameplay shown in a mobile game advertisement. **Creator:** [daniel](<https://x.com/buildingadlicio>) · **Tools / format:** Blender The creator used Astra and Blender to turn a mobile ad into a playable prototype, reporting a build time under 30 minutes. [Original post](<https://x.com/buildingadlicio/status/2096111709496680842>) · [Visual gal",
+   "desc": "A small browser game recreating the gameplay shown in a mobile game advertisement. **Creator:** [daniel](<https://x.com/buildingadlicio>) · **Tools / format:** Blender The creator used Astra and Blender to turn a mobile ad into a playable prototype, reporting a build time under 30 minutes. [Original post](<https://x.com/buildingadlicio/status/2096111709496680842>) · [Visual gal",
    "featured": ""
   },
   {
@@ -1870,7 +1667,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A 3D combat level with changing weather, weapons, abilities and day-night cycles. **Creator:** [歸藏(guizang.ai)](<https://x.com/op7418>) · **Tools / format:** Godot, Blender The creator credits Astra, Blender and Godot. This entry is a recorded level demonstration, not a downloadable or browser-playable game. [Original post](<https://x.com/op7418/status/2096494840431386950>) · [",
+   "desc": "A 3D combat level with changing weather, weapons, abilities and day-night cycles. **Creator:** [歸藏(guizang.ai)](<https://x.com/op7418>) · **Tools / format:** Godot, Blender The creator credits Astra, Blender and Godot. This entry is a recorded level demonstration, not a downloadable or browser-playable game. [Original post](<https://x.com/op7418/status/2096494840431386950>) · [",
    "featured": ""
   },
   {
@@ -1886,7 +1683,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A 3D aquarium game experiment built around a reference image. **Creator:** [Tim Jayas](<https://x.com/TimJayas>) · **Tools / format:** 3D The creator compares Astra and Fable 5 using a single prompt and a reference image. This is a creator-run comparison, not a standardized benchmark. [Original post](<https://x.com/TimJayas/status/2095611134992945385>) · [Visual gallery details",
+   "desc": "A 3D aquarium game experiment built around a reference image. **Creator:** [Tim Jayas](<https://x.com/TimJayas>) · **Tools / format:** 3D The creator compares Astra and Fable 5 using a single prompt and a reference image. This is a creator-run comparison, not a standardized benchmark. [Original post](<https://x.com/TimJayas/status/2095611134992945385>) · [Visual gallery details",
    "featured": ""
   },
   {
@@ -1902,7 +1699,7 @@
     "magiccreator-ai_awesome-gpt-6-astra"
    ],
    "prompt": "",
-   "desc_clean": "A 3D game prototype demonstrated running in a browser. **Creator:** [Theo - t3.gg](<https://x.com/theo>) · **Tools / format:** Blender The creator presents it as a single-prompt Astra game while highlighting Blender and spatial reasoning. The post provides a recorded demonstration. [Original post](<https://x.com/theo/status/2095599934766764338>) · [Visual gallery details](<http",
+   "desc": "A 3D game prototype demonstrated running in a browser. **Creator:** [Theo - t3.gg](<https://x.com/theo>) · **Tools / format:** Blender The creator presents it as a single-prompt Astra game while highlighting Blender and spatial reasoning. The post provides a recorded demonstration. [Original post](<https://x.com/theo/status/2095599934766764338>) · [Visual gallery details](<http",
    "featured": ""
   }
  ]
