@@ -99,6 +99,21 @@ The initial batch ships as **📝 draft** — format-complete and reviewed, but 
 
 ---
 
+## 🕹️ Showcase & Playbooks（新增）
+
+本项目在 `prompts/`（可复现配方）之外新增两层，不改变原有可复现契约：
+
+| 目录 | 是什么 | 数据 |
+|---|---|---|
+| [`showcase/`](showcase/README.md) | **X 真实玩法案例**：103 条，34 条带 prompt 原文，全部回链 X 原帖。分类 + 推荐榜。 | [`showcase/data.json`](showcase/data.json) |
+| [`playbooks/`](playbooks/README.md) | **玩法配方手册（skill 层）**：6 个可复用套路，从案例提炼，含模板/变量/翻车点 | 纯 markdown |
+| [`web/`](web/index.html) | **网页端**：消费 `showcase/data.json` 的案例馆页面（repo 与网页共建） | 静态页 |
+
+收录原则（详见 [showcase/README.md](showcase/README.md)）：**X 是唯一 record source**；prompt 只可能来自
+帖子里或帖子下面；没有 prompt 也照收；从所有 awesome list 聚合、按原帖去重；分类 + 推荐优先于大而全。
+
+---
+
 ## Quick start
 
 ```bash
