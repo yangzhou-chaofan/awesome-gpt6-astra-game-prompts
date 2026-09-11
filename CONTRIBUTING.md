@@ -2,11 +2,13 @@
 
 Thanks for helping make this the best place to find prompts that actually produce running 3D games.
 
-There are three ways to contribute, in increasing order of value:
+There are four ways to contribute, in increasing order of value:
 
 1. **Report drift** — a recipe no longer works on a new model release. Open an issue.
-2. **Submit a prompt** — a new reproducible recipe.
-3. **Reproduce a prompt** — run someone else's recipe, confirm the acceptance checks, and record it.
+2. **Add a catalog entry** — point at a GPT-6 Astra prompt, demo, tool or guide published elsewhere,
+   with its real source. The lowest-friction contribution.
+3. **Submit a prompt** — a new reproducible recipe.
+4. **Reproduce a prompt** — run someone else's recipe, confirm the acceptance checks, and record it.
    This is the most valuable contribution, because it is what promotes a prompt to **tested**.
 
 ---
@@ -91,6 +93,33 @@ A recipe can validate and still be a bad recipe. Reviewers look for:
   "Where it drifts" rather than pretending the recipe is perfect.
 - **No hidden state.** If the result depends on a file, an env var, an API key or a paid tool, say so
   in "Before you start".
+
+---
+
+## Adding a catalog entry
+
+The [catalog](catalog/README.md) is the lighter of the two layers: a classified, credited,
+recommended pointer to GPT-6 Astra work published elsewhere. A prompt is optional here, but a
+**real source and an author are not** — no source, no entry.
+
+```bash
+# copy the shape of any file under catalog/entries/<category>/
+cp catalog/entries/games/astra-cat-019-one-shot-games.md catalog/entries/web/astra-cat-029-my-find.md
+# edit it, then:
+python3 scripts/validate_catalog.py
+python3 scripts/build_catalog.py      # regenerates CATALOG.md and site/index.html
+```
+
+Rules the validator enforces:
+
+- required keys: `id`, `title`, `category`, `kind`, `tier`, `source_platform`, `source_url`,
+  `author`, `has_prompt`, `added`, `tags`
+- `category` matches the containing folder; `source_url` is an absolute http(s) URL
+- `id` unique and matching `astra-cat-NNN`; the filename is `<id>-<slug>.md`
+- body carries **What it is**, **Why it's recommended**, **Source & credit**
+
+Set the tier honestly: `community` for something you just found, `notable` when there is real
+traction, and leave `featured` to maintainers.
 
 ---
 

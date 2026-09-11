@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/schema/catalog.schema.json",
+  "title": "Catalog entry frontmatter",
+  "description": "The machine-readable contract every file under catalog/entries/ must satisfy. Like the recipe schema this is a flat map of scalars and inline arrays so tooling stays dependency-free.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "category",
+    "kind",
+    "tier",
+    "source_platform",
+    "source_url",
+    "author",
+    "has_prompt",
+    "added",
+    "tags"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable identifier, unique across the catalog.",
+      "pattern": "^astra-cat-[0-9]{3}$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Human name shown in CATALOG.md and the gallery.",
+      "minLength": 3,
+      "maxLength": 70
+    },
+    "category": {
+      "type": "string",
+      "description": "Primary medium / output form. Must match the containing folder under catalog/entries/.",
+      "enum": ["games", "3d", "web", "video", "apps", "agent", "engineering", "research", "prompts"]
+    },
+    "kind": {
+      "type": "string",
+      "description": "What the entry is: a collection of many things, a single work, a tool, an agent skill, a written guide, or an official resource.",
+      "enum": ["collection", "work", "tool", "skill", "guide", "official"]
+    },
+    "tier": {
+      "type": "string",
+      "description": "Recommendation tier. featured = editor-picked and attributable; notable = clear signal; community = submitted, unvetted.",
+      "enum": ["featured", "notable", "community"]
+    },
+    "source_platform": {
+      "type": "string",
+      "enum": ["github", "x", "web", "hf"]
+    },
+    "source_url": {
+      "type": "string",
+      "description": "Canonical origin of the work or collection. Every entry must be traceable to a real, public URL.",
+      "pattern": "^https?://"
+    },
+    "author": {
+      "type": "string",
+      "description": "Creator or maintainer handle, credited as-is.",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "has_prompt": {
+      "type": "boolean",
+      "description": "Whether the entry ships a usable prompt. Prompts are welcome but not required \u2014 a great demo with no prompt is still a valid entry."
+    },
+    "prompt_note": {
+      "type": "string",
+      "description": "Optional one-line note about the prompt (where it lives, what it produces).",
+      "maxLength": 200
+    },
+    "stars": {
+      "type": "integer",
+      "description": "Optional GitHub star count at catalog time. A snapshot, not a live value.",
+      "minimum": 0
+    },
+    "signals": {
+      "type": "array",
+      "description": "Short, checkable reasons this entry is recommended. Inline array.",
+      "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+      "uniqueItems": true
+    },
+    "added": {
+      "type": "string",
+      "description": "ISO date the entry entered the catalog.",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "tags": {
+      "type": "array",
+      "description": "Free-form discovery tags. Inline array.",
+      "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  }
+}
