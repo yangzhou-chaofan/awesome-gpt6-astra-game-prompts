@@ -22,7 +22,9 @@ dist/
 *.gltf
 *.png
 *.jpg
+*.webp
 !docs/**/*.png
+!assets/**
 
 # Scratch
 tmp/
