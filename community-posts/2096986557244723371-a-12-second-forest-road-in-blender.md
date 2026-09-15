@@ -6,7 +6,7 @@ author_url: "https://x.com/Jomolos"
 original_post: "https://x.com/Jomolos/status/2096986557244723371"
 posted_on: "2026-09-07"
 media_type: image
-media_url: "https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/3e060bfb3bf3973f0efb048cacbdc625fe879b8bca0cb46c2bb8fd367eb75268.jpg"
+media_url: "https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/85ae0989bef09568015579b2.jpg"
 live_demo: ""
 source_list: "TripoGrowthLab/awesome-astra-prompts"
 source_list_url: "https://github.com/TripoGrowthLab/awesome-astra-prompts"
@@ -18,7 +18,7 @@ tags: [blender, gpt-6-astra, image, tripo]
 
 **[Can Matrix](https://x.com/Jomolos)** · 2026-09-07 · [original post ↗](https://x.com/Jomolos/status/2096986557244723371)
 
-![preview](https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/3e060bfb3bf3973f0efb048cacbdc625fe879b8bca0cb46c2bb8fd367eb75268.jpg)
+![preview](https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/85ae0989bef09568015579b2.jpg)
 
 ## Prompt
 

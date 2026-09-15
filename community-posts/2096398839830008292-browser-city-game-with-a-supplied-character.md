@@ -6,7 +6,7 @@ author_url: "https://x.com/djrio_vr"
 original_post: "https://x.com/djrio_vr/status/2096398839830008292"
 posted_on: "2026-09-06"
 media_type: image
-media_url: "https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/2b020e0fc8275195843fe93dfea7923e440940671c21060866aa6fd429e471e9.webp"
+media_url: "https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/2b020e0fc8275195843fe93dfea7923e440940671c21060866aa6fd429e471e9.webp"
 live_demo: ""
 source_list: "TripoGrowthLab/awesome-astra-prompts"
 source_list_url: "https://github.com/TripoGrowthLab/awesome-astra-prompts"
@@ -18,7 +18,7 @@ tags: [blender, game, gpt-6-astra, image, tripo]
 
 **[DJ RIO \| REALITY](https://x.com/djrio_vr)** · 2026-09-06 · [original post ↗](https://x.com/djrio_vr/status/2096398839830008292)
 
-![preview](https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/2b020e0fc8275195843fe93dfea7923e440940671c21060866aa6fd429e471e9.webp)
+![preview](https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/2b020e0fc8275195843fe93dfea7923e440940671c21060866aa6fd429e471e9.webp)
 
 ## Prompt
 

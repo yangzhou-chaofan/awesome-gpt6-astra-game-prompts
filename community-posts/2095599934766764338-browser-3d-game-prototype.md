@@ -6,7 +6,7 @@ author_url: "https://x.com/theo"
 original_post: "https://x.com/theo/status/2095599934766764338"
 posted_on: "2026-09"
 media_type: image
-media_url: "https://pbs.twimg.com/amplify_video_thumb/2095599652796272640/img/-alGPQCkf-Z8Cs-n.jpg"
+media_url: "https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/45e895ac5f265217d1138e79.jpg"
 live_demo: ""
 source_list: "unknown"
 source_list_url: "https://github.com/unknown"
@@ -18,7 +18,7 @@ tags: [gpt-6-astra, game, image, unknown]
 
 **[theo](https://x.com/theo)** · [original post ↗](https://x.com/theo/status/2095599934766764338)
 
-![preview](https://pbs.twimg.com/amplify_video_thumb/2095599652796272640/img/-alGPQCkf-Z8Cs-n.jpg)
+![preview](https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/45e895ac5f265217d1138e79.jpg)
 
 > Prompt not public in source post.
 

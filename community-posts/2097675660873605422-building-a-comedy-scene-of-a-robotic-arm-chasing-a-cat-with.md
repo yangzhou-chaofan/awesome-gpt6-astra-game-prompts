@@ -6,7 +6,7 @@ author_url: "https://x.com/TanLuAI"
 original_post: "https://x.com/TanLuAI/status/2097675660873605422"
 posted_on: "2026-09-09"
 media_type: image
-media_url: "https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/b6d2405bd8f8e5cd9543cde67c0c3719a2e7b5ac38c080cca7336d0f7c1ec1d1.jpg"
+media_url: "https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/048f4f10a6c955d2f37a0586.jpg"
 live_demo: ""
 source_list: "TripoGrowthLab/awesome-astra-prompts"
 source_list_url: "https://github.com/TripoGrowthLab/awesome-astra-prompts"
@@ -18,7 +18,7 @@ tags: [blender, gpt-6-astra, image, tripo]
 
 **[探路AI](https://x.com/TanLuAI)** · 2026-09-09 · [original post ↗](https://x.com/TanLuAI/status/2097675660873605422)
 
-![preview](https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/b6d2405bd8f8e5cd9543cde67c0c3719a2e7b5ac38c080cca7336d0f7c1ec1d1.jpg)
+![preview](https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/048f4f10a6c955d2f37a0586.jpg)
 
 ## Prompt
 

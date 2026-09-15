@@ -6,7 +6,7 @@ author_url: "https://x.com/higgsfield_ai"
 original_post: "https://x.com/higgsfield_ai/status/2097470354897740109"
 posted_on: "2026-09"
 media_type: image
-media_url: "https://pbs.twimg.com/amplify_video_thumb/2097469520470478848/img/QonJEdt4G7P8l7tP.jpg"
+media_url: "https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/899da72afc28d785b886e899.jpg"
 live_demo: ""
 source_list: "unknown"
 source_list_url: "https://github.com/unknown"
@@ -18,7 +18,7 @@ tags: [gpt-6-astra, game, image, unknown]
 
 **[higgsfield_ai](https://x.com/higgsfield_ai)** · [original post ↗](https://x.com/higgsfield_ai/status/2097470354897740109)
 
-![preview](https://pbs.twimg.com/amplify_video_thumb/2097469520470478848/img/QonJEdt4G7P8l7tP.jpg)
+![preview](https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/899da72afc28d785b886e899.jpg)
 
 > Prompt not public in source post.
 

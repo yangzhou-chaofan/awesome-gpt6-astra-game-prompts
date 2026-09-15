@@ -6,7 +6,7 @@ author_url: "https://x.com/JohnKlerAI"
 original_post: "https://x.com/JohnKlerAI/status/2096391653669953761"
 posted_on: "2026-09-06"
 media_type: image
-media_url: "https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/0203a375c4a0f77f1fae00d9c8c9173739b940debd87bf4144d4f375ccc8c12e.jpg"
+media_url: "https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/1d1b4754ec5661597774ea48.jpg"
 live_demo: ""
 source_list: "TripoGrowthLab/awesome-astra-prompts"
 source_list_url: "https://github.com/TripoGrowthLab/awesome-astra-prompts"
@@ -18,7 +18,7 @@ tags: [blender, gpt-6-astra, image, tripo]
 
 **[John Kler](https://x.com/JohnKlerAI)** · 2026-09-06 · [original post ↗](https://x.com/JohnKlerAI/status/2096391653669953761)
 
-![preview](https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/0203a375c4a0f77f1fae00d9c8c9173739b940debd87bf4144d4f375ccc8c12e.jpg)
+![preview](https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/1d1b4754ec5661597774ea48.jpg)
 
 ## Prompt
 

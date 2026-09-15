@@ -6,7 +6,7 @@ author_url: "https://x.com/tripoai"
 original_post: "https://x.com/tripoai/status/2096629506047955327"
 posted_on: "2026-09-06"
 media_type: image
-media_url: "https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/e3304eeb4bf4186f9a57768af5e1962741c3dce44ed5aace2aef04585d0e69ca.jpg"
+media_url: "https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/529e5d19ae7a87b6297845b0.jpg"
 live_demo: ""
 source_list: "TripoGrowthLab/awesome-astra-prompts"
 source_list_url: "https://github.com/TripoGrowthLab/awesome-astra-prompts"
@@ -18,7 +18,7 @@ tags: [game, gpt-6-astra, image, tripo, unity]
 
 **[Tripo](https://x.com/tripoai)** · 2026-09-06 · [original post ↗](https://x.com/tripoai/status/2096629506047955327)
 
-![preview](https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/e3304eeb4bf4186f9a57768af5e1962741c3dce44ed5aace2aef04585d0e69ca.jpg)
+![preview](https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/529e5d19ae7a87b6297845b0.jpg)
 
 ## Prompt
 

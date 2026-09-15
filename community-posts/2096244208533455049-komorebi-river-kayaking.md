@@ -6,7 +6,7 @@ author_url: "https://x.com/ItsmeAjayKV"
 original_post: "https://x.com/ItsmeAjayKV/status/2096244208533455049"
 posted_on: "2026-09-05"
 media_type: image
-media_url: "https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/177462bb87e3089acbf23e2e6f58e75e4fa5cb7291601fdce6da2a3fb5f2b6af.webp"
+media_url: "https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/177462bb87e3089acbf23e2e6f58e75e4fa5cb7291601fdce6da2a3fb5f2b6af.webp"
 live_demo: ""
 source_list: "TripoGrowthLab/awesome-astra-prompts"
 source_list_url: "https://github.com/TripoGrowthLab/awesome-astra-prompts"
@@ -18,7 +18,7 @@ tags: [game, gpt-6-astra, image, tripo]
 
 **[AJ](https://x.com/ItsmeAjayKV)** · 2026-09-05 · [original post ↗](https://x.com/ItsmeAjayKV/status/2096244208533455049)
 
-![preview](https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/177462bb87e3089acbf23e2e6f58e75e4fa5cb7291601fdce6da2a3fb5f2b6af.webp)
+![preview](https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/177462bb87e3089acbf23e2e6f58e75e4fa5cb7291601fdce6da2a3fb5f2b6af.webp)
 
 ## Prompt
 
