@@ -6,7 +6,7 @@ author_url: "https://x.com/zeuuss_01"
 original_post: "https://x.com/zeuuss_01/status/2097004192627933279"
 posted_on: "2026-09-07"
 media_type: image
-media_url: "https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/9188a5a53301b71d404af1d10d6baf4e44585869cc933918118ae2180cf3c1ab.jpg"
+media_url: "https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/02156c8d65cef573167a1718.jpg"
 live_demo: ""
 source_list: "TripoGrowthLab/awesome-astra-prompts"
 source_list_url: "https://github.com/TripoGrowthLab/awesome-astra-prompts"
@@ -18,7 +18,7 @@ tags: [game, gpt-6-astra, image, threejs, tripo, voxel]
 
 **[ZEUS⚡️](https://x.com/zeuuss_01)** · 2026-09-07 · [original post ↗](https://x.com/zeuuss_01/status/2097004192627933279)
 
-![preview](https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/9188a5a53301b71d404af1d10d6baf4e44585869cc933918118ae2180cf3c1ab.jpg)
+![preview](https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/02156c8d65cef573167a1718.jpg)
 
 ## Prompt
 

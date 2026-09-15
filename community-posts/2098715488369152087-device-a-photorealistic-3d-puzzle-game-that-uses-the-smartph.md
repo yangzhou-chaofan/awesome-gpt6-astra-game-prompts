@@ -6,7 +6,7 @@ author_url: "https://x.com/00Nekonet"
 original_post: "https://x.com/00Nekonet/status/2098715488369152087"
 posted_on: "2026-09-12"
 media_type: image
-media_url: "https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/2300a6320af3fc2a12e4d96b98007446f779ddb64f891a54e2118c9b86ab9f81.jpg"
+media_url: "https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/34aee4eb542310f21c27d1ed.jpg"
 live_demo: ""
 source_list: "unknown"
 source_list_url: "https://github.com/unknown"
@@ -18,7 +18,7 @@ tags: [gpt-6-astra, game, unknown]
 
 **[ひまねこ](https://x.com/00Nekonet)** · 2026-09-12 · [original post ↗](https://x.com/00Nekonet/status/2098715488369152087)
 
-![preview](https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/2300a6320af3fc2a12e4d96b98007446f779ddb64f891a54e2118c9b86ab9f81.jpg)
+![preview](https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/34aee4eb542310f21c27d1ed.jpg)
 
 ## Prompt
 

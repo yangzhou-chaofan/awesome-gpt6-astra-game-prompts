@@ -6,7 +6,7 @@ author_url: "https://x.com/tomkrcha"
 original_post: "https://x.com/tomkrcha/status/2096362653480562751"
 posted_on: "2026-09-05"
 media_type: image
-media_url: "https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/66b6fe9a782625a1d13bf79872857593fecf604421e40eb8cfd67c212ad0b695.webp"
+media_url: "https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/967dfc7a1c658ef0de5a7eb3.webp"
 live_demo: ""
 source_list: "TripoGrowthLab/awesome-astra-prompts"
 source_list_url: "https://github.com/TripoGrowthLab/awesome-astra-prompts"
@@ -18,7 +18,7 @@ tags: [game, gpt-6-astra, image, threejs, tripo]
 
 **[Tom Krcha](https://x.com/tomkrcha)** · 2026-09-05 · [original post ↗](https://x.com/tomkrcha/status/2096362653480562751)
 
-![preview](https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/66b6fe9a782625a1d13bf79872857593fecf604421e40eb8cfd67c212ad0b695.webp)
+![preview](https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/967dfc7a1c658ef0de5a7eb3.webp)
 
 ## Prompt
 

@@ -6,7 +6,7 @@ author_url: "https://x.com/zeuuss_01"
 original_post: "https://x.com/zeuuss_01/status/2096337879173591171"
 posted_on: "2026-09-05"
 media_type: image
-media_url: "https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/b357895cffa990ebc6d5404e59b1f2371a45536a5cabca80b976c590192d8338.webp"
+media_url: "https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/70b44657a0a3c5d782e2efb4.webp"
 live_demo: "https://beach-crab-game.netlify.app/"
 source_list: "TripoGrowthLab/awesome-astra-prompts"
 source_list_url: "https://github.com/TripoGrowthLab/awesome-astra-prompts"
@@ -18,7 +18,7 @@ tags: [game, gpt-6-astra, image, threejs, tripo]
 
 **[ZEUS⚡️](https://x.com/zeuuss_01)** · 2026-09-05 · [original post ↗](https://x.com/zeuuss_01/status/2096337879173591171)
 
-![preview](https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/b357895cffa990ebc6d5404e59b1f2371a45536a5cabca80b976c590192d8338.webp)
+![preview](https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/70b44657a0a3c5d782e2efb4.webp)
 
 ## Prompt
 

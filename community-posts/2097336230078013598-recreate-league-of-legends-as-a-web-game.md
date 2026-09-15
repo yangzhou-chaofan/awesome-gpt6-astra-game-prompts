@@ -6,7 +6,7 @@ author_url: "https://x.com/liyue_ai"
 original_post: "https://x.com/liyue_ai/status/2097336230078013598"
 posted_on: "2026-09-08"
 media_type: image
-media_url: "https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/36b98467e6157525383fbc35526f9c07f2cadf9f16b1559da917bb3cc5fc4eca.jpg"
+media_url: "https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/e8c8c4308f432de79fda78db.jpg"
 live_demo: ""
 source_list: "TripoGrowthLab/awesome-astra-prompts"
 source_list_url: "https://github.com/TripoGrowthLab/awesome-astra-prompts"
@@ -18,7 +18,7 @@ tags: [game, gpt-6-astra, image, tripo]
 
 **[李岳](https://x.com/liyue_ai)** · 2026-09-08 · [original post ↗](https://x.com/liyue_ai/status/2097336230078013598)
 
-![preview](https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/36b98467e6157525383fbc35526f9c07f2cadf9f16b1559da917bb3cc5fc4eca.jpg)
+![preview](https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/e8c8c4308f432de79fda78db.jpg)
 
 ## Prompt
 

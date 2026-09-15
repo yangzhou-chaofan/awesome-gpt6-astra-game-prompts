@@ -6,7 +6,7 @@ author_url: "https://x.com/_simonsmith"
 original_post: "https://x.com/_simonsmith/status/2096766465730847059"
 posted_on: "2026-09-07"
 media_type: image
-media_url: "https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/2b65a179759aadacaa8dcf78ecfd45f3e7dcd04b4d1f535bc553c3d9f7505f2d.jpg"
+media_url: "https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/f4380ec584040f8724bf2fd1.jpg"
 live_demo: ""
 source_list: "TripoGrowthLab/awesome-astra-prompts"
 source_list_url: "https://github.com/TripoGrowthLab/awesome-astra-prompts"
@@ -18,7 +18,7 @@ tags: [blender, game, gpt-6-astra, image, mcp, tripo]
 
 **[Simon Smith](https://x.com/_simonsmith)** · 2026-09-07 · [original post ↗](https://x.com/_simonsmith/status/2096766465730847059)
 
-![preview](https://raw.githubusercontent.com/TripoGrowthLab/awesome-astra-prompts/HEAD/assets/previews/2b65a179759aadacaa8dcf78ecfd45f3e7dcd04b4d1f535bc553c3d9f7505f2d.jpg)
+![preview](https://raw.githubusercontent.com/yangzhou-chaofan/awesome-gpt6-astra-game-prompts/main/assets/previews/f4380ec584040f8724bf2fd1.jpg)
 
 ## Prompt
 
