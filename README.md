@@ -4,7 +4,7 @@
 
 ### One prompt. One playable 3D game.
 
-**26 reproducible recipes · 103 real community cases (101 with previews) · 6 playbooks · 93 creators credited**
+**26 reproducible recipes · 208 real community cases (204 with previews) · 6 playbooks · 185 creators credited**
 
 [🚀 Start here](#-start-here) · [🏆 Featured](#-featured--worth-studying) · [🖼️ Gallery](#️-gallery) · [🎮 Games](#-games-21) · [🧪 Recipes](#-reproducible-recipes--26) · [📖 Playbooks](#-playbooks) · [🌐 Web viewer](site/index.html)
 
@@ -25,7 +25,7 @@
 | 🧪 **Recipes** | Reproduce it yourself — pinned model version, settings, inputs, acceptance checks | `prompts/` |
 | 📖 **Methods** | Turn *your* idea into a working prompt — reusable play patterns | `playbooks/` · `skills/` |
 
-**Sourcing rule:** X is the record of truth. Every case links back to its original post; prompts are only ever collected from the post itself or its replies. Aggregated from 10 community awesome-lists, deduplicated by post URL, every entry credited. Snapshot: 2026-09-11.
+**Sourcing rule:** X is the record of truth. Every case links back to its original post; prompts are only ever collected from the post itself or its replies. Aggregated from 10 community awesome-lists, deduplicated by post URL, every entry credited. Snapshot: 2026-09-17.
 
 ---
 
@@ -72,7 +72,7 @@
 
 ---
 
-## 🎮 Games (21)
+## 🎮 Games (38)
 
 | Preview | Case | Author | Play |
 |---|---|---|---|
@@ -298,7 +298,7 @@ Community prompts that reproduce share a contract, and it is worth internalizing
 
 <div align="center">
 
-**Snapshot 2026-09-11** · X posts are the record of truth; awesome-lists are aggregation channels only ·
+**Snapshot 2026-09-17** · X posts are the record of truth; awesome-lists are aggregation channels only ·
 All work © its original creators, credited per entry · Unofficial community project, not affiliated with or endorsed by OpenAI
 
 [CC0-1.0](LICENSE) · Made with 🕹️ by the community
