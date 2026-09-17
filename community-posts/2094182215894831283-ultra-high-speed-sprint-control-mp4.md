@@ -6,7 +6,7 @@ author_url: "https://x.com/Kashiko_AIart"
 original_post: "https://x.com/Kashiko_AIart/status/2094182215894831283"
 posted_on: "2026-09"
 media_type: image
-media_url: "None"
+media_url: ""
 live_demo: ""
 source_list: "unknown"
 source_list_url: "https://github.com/unknown"

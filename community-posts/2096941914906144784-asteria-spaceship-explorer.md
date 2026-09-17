@@ -6,7 +6,7 @@ author_url: "https://x.com/wengsiong22"
 original_post: "https://x.com/wengsiong22/status/2096941914906144784"
 posted_on: "2026-09"
 media_type: image
-media_url: "None"
+media_url: ""
 live_demo: ""
 source_list: "unknown"
 source_list_url: "https://github.com/unknown"
