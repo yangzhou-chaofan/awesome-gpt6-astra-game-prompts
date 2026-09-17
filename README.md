@@ -78,7 +78,7 @@
 
 ---
 
-## 🎮 Games (45)
+## 🎮 Games (53)
 
 | Preview | Case | Author | Play |
 |---|---|---|---|
