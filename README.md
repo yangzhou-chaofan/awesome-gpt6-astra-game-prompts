@@ -4,7 +4,7 @@
 
 ### One prompt. One playable 3D game.
 
-**26 reproducible recipes · 421 real community cases (421 with previews) · 6 playbooks · 206+ creators credited**
+**26 reproducible recipes · 423 real community cases (423 with previews) · 6 playbooks · 206+ creators credited**
 
 [🚀 Start here](#-start-here) · [🏆 Featured](#-featured--worth-studying) · [🖼️ Gallery](#️-gallery) · [🎮 Games](#-games-21) · [🧪 Recipes](#-reproducible-recipes--26) · [📖 Playbooks](#-playbooks) · [🌐 Web viewer](site/index.html)
 
